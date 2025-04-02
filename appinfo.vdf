@@ -1,0 +1,871 @@
+"appid" "1811260"
+"common"
+{
+	"name" "EA SPORTS™ FIFA 23"
+	"type" "Game"
+	"releasestate" "released"
+	"languages"
+	{
+		"english" "1"
+		"german" "1"
+		"french" "1"
+		"italian" "1"
+		"koreana" "1"
+		"spanish" "1"
+		"schinese" "1"
+		"tchinese" "1"
+		"russian" "1"
+		"japanese" "1"
+		"portuguese" "1"
+		"polish" "1"
+		"danish" "1"
+		"dutch" "1"
+		"norwegian" "1"
+		"swedish" "1"
+		"czech" "1"
+		"turkish" "1"
+		"arabic" "1"
+		"brazilian" "1"
+		"latam" "1"
+	}
+	"icon" "c069d465ac21b9d68260a14298f8124c0b9ea4e1"
+	"clienttga" "6012ea81d68607ad0dfc5610e61f17101373c1fd"
+	"clienticon" "4d6028e21416035a489e483278bddba622a4f8b8"
+	"name_localized"
+	{
+		"tchinese" "EA SPORTS™《FIFA 23》"
+		"schinese" "EA SPORTS™《FIFA 23》"
+	}
+	"oslist" "windows"
+	"osarch" "64"
+	"osextended" ""
+	"exfgls" "1"
+	"eulas"
+	{
+		"0"
+		{
+			"id" "1811260_eula_1"
+			"name" "EA SPORTS™ FIFA 23 EULA"
+			"url" "https://store.steampowered.com//eula/1811260_eula_1"
+			"version" "1"
+		}
+	}
+	"steam_deck_compatibility"
+	{
+		"category" "1"
+		"test_timestamp" "1682035200"
+		"tested_build_id" "9789845"
+		"tests"
+		{
+			"0"
+			{
+				"display" "2"
+				"token" "#SteamDeckVerified_TestResult_UnsupportedAntiCheat_Other"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"controllertagwizard" "1"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "21.788277258290137"
+			"height_pct" "36.993127825081466"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "21.788277258290137"
+				"height_pct" "36.993127825081466"
+			}
+		}
+	}
+	"store_asset_mtime" "1689266535"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "EA Canada &amp; EA Romania"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Electronic Arts"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "EA Sports"
+		}
+	}
+	"primary_genre" "18"
+	"genres"
+	{
+		"0" "28"
+		"1" "18"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_1" "1"
+		"category_49" "1"
+		"category_36" "1"
+		"category_37" "1"
+		"category_9" "1"
+		"category_38" "1"
+		"category_39" "1"
+		"category_24" "1"
+		"category_22" "1"
+		"category_35" "1"
+		"category_27" "1"
+		"category_28" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+		"italian"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+		"arabic"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+		"czech"
+		{
+			"supported" "true"
+		}
+		"danish"
+		{
+			"supported" "true"
+		}
+		"dutch"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+		"japanese"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+		"koreana"
+		{
+			"supported" "true"
+		}
+		"norwegian"
+		{
+			"supported" "true"
+		}
+		"polish"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+		"portuguese"
+		{
+			"supported" "true"
+		}
+		"brazilian"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+			"full_audio" "true"
+		}
+		"latam"
+		{
+			"supported" "true"
+		}
+		"swedish"
+		{
+			"supported" "true"
+		}
+		"tchinese"
+		{
+			"supported" "true"
+		}
+		"turkish"
+		{
+			"supported" "true"
+		}
+	}
+	"steam_release_date" "1664521200"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "1811260"
+	"store_tags"
+	{
+		"0" "1254546"
+		"1" "701"
+		"2" "7481"
+		"3" "5055"
+		"4" "1775"
+		"5" "12472"
+		"6" "599"
+		"7" "5711"
+		"8" "1697"
+		"9" "4175"
+		"10" "9204"
+		"11" "3859"
+		"12" "7368"
+		"13" "3841"
+		"14" "1685"
+		"15" "4182"
+		"16" "3843"
+		"17" "6730"
+		"18" "113"
+		"19" "44868"
+	}
+	"review_score" "5"
+	"review_percentage" "56"
+}
+"extended"
+{
+	"allowmicrotxnfromrestrictedcountries" "1"
+	"minclientversion" "1664418568"
+	"microtxnrestrictedcountries" "XX"
+	"developer" "EA Canada &amp; EA Romania"
+	"publisher" "Electronic Arts"
+	"homepage" "https://www.ea.com/games/fifa"
+	"listofdlc" "1811270,1827530,1962390,1962391,1962392,1962393,2224220"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"installdir" "FIFA 23"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "link2ea://launchgame/1811260\?platform=steam&theme=fifa23"
+		}
+	}
+}
+"depots"
+{
+	"baselanguages" "english,german,french,italian,koreana,spanish,schinese,tchinese,russian,japanese,portuguese,polish,danish,dutch,norwegian,swedish,czech,turkish,arabic,brazilian,latam"
+	"228988"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"229002"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"1811261"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6428723144104825041"
+				"size" "48143761941"
+				"download" "45075390800"
+			}
+			"local"
+			{
+				"gid" "8161814393677555999"
+				"size" "41352741736"
+				"download" "40405881744"
+			}
+		}
+	}
+	"1811262"
+	{
+		"config"
+		{
+			"language" "english"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4228600116261280410"
+				"size" "2885661990"
+				"download" "2283056832"
+			}
+			"local"
+			{
+				"gid" "1510898027147081565"
+				"size" "2275927808"
+				"download" "2087101584"
+			}
+		}
+	}
+	"1811263"
+	{
+		"config"
+		{
+			"language" "german"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6481813983414511388"
+				"size" "1696476570"
+				"download" "1473824656"
+			}
+			"local"
+			{
+				"gid" "4987064166035671797"
+				"size" "1439029690"
+				"download" "1324225440"
+			}
+		}
+	}
+	"1811264"
+	{
+		"config"
+		{
+			"language" "french"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5053503046026414809"
+				"size" "878750396"
+				"download" "775792272"
+			}
+			"local"
+			{
+				"gid" "1286752364883773329"
+				"size" "727006832"
+				"download" "667865520"
+			}
+		}
+	}
+	"1811265"
+	{
+		"config"
+		{
+			"language" "italian"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6370218071896061087"
+				"size" "1351339175"
+				"download" "1173358432"
+			}
+			"local"
+			{
+				"gid" "1556071069705259577"
+				"size" "1127929541"
+				"download" "1038534016"
+			}
+		}
+	}
+	"1811266"
+	{
+		"config"
+		{
+			"language" "koreana"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3429787853277009831"
+				"size" "2885958128"
+				"download" "2283075056"
+			}
+			"local"
+			{
+				"gid" "5128050445481833674"
+				"size" "2276222359"
+				"download" "2087119712"
+			}
+		}
+	}
+	"1811267"
+	{
+		"config"
+		{
+			"language" "spanish"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3255379384225383802"
+				"size" "1669628103"
+				"download" "1466932736"
+			}
+			"local"
+			{
+				"gid" "3664337271860107533"
+				"size" "1429623590"
+				"download" "1311795248"
+			}
+		}
+	}
+	"1811268"
+	{
+		"config"
+		{
+			"language" "schinese"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3197206663681891548"
+				"size" "1334015330"
+				"download" "1141541856"
+			}
+			"local"
+			{
+				"gid" "1056515057927781665"
+				"size" "1080825655"
+				"download" "993900128"
+			}
+		}
+	}
+	"1811269"
+	{
+		"config"
+		{
+			"language" "tchinese"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7043729583236733893"
+				"size" "2885677571"
+				"download" "2283069040"
+			}
+			"local"
+			{
+				"gid" "5659981243110764851"
+				"size" "2275944367"
+				"download" "2087113920"
+			}
+		}
+	}
+	"1811271"
+	{
+		"config"
+		{
+			"language" "russian"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4858104906605818858"
+				"size" "1716809281"
+				"download" "1483257072"
+			}
+			"local"
+			{
+				"gid" "3473968897941709982"
+				"size" "1421292829"
+				"download" "1305709776"
+			}
+		}
+	}
+	"1811272"
+	{
+		"config"
+		{
+			"language" "japanese"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5230963507216085491"
+				"size" "1644033316"
+				"download" "1414872816"
+			}
+			"local"
+			{
+				"gid" "5563842134499661925"
+				"size" "1446103280"
+				"download" "1297414336"
+			}
+		}
+	}
+	"1811273"
+	{
+		"config"
+		{
+			"language" "portuguese"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7743738962317283793"
+				"size" "2885688967"
+				"download" "2283072048"
+			}
+			"local"
+			{
+				"gid" "1633929975577668199"
+				"size" "2275952414"
+				"download" "2087116480"
+			}
+		}
+	}
+	"1811274"
+	{
+		"config"
+		{
+			"language" "polish"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3083812127559422521"
+				"size" "1390866006"
+				"download" "1228752672"
+			}
+			"local"
+			{
+				"gid" "5401168495544464172"
+				"size" "1178601761"
+				"download" "1085717392"
+			}
+		}
+	}
+	"1811275"
+	{
+		"config"
+		{
+			"language" "danish"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4935292821650054260"
+				"size" "2885674453"
+				"download" "2283070160"
+			}
+			"local"
+			{
+				"gid" "6235238144081217335"
+				"size" "2275939765"
+				"download" "2087114848"
+			}
+		}
+	}
+	"1811276"
+	{
+		"config"
+		{
+			"language" "dutch"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4745267476942449785"
+				"size" "1724637271"
+				"download" "1503206640"
+			}
+			"local"
+			{
+				"gid" "6836263433496058642"
+				"size" "1485430535"
+				"download" "1363784112"
+			}
+		}
+	}
+	"1811277"
+	{
+		"config"
+		{
+			"language" "norwegian"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "467863034743173617"
+				"size" "2885670550"
+				"download" "2283069360"
+			}
+			"local"
+			{
+				"gid" "1988983472108567452"
+				"size" "2275936141"
+				"download" "2087114064"
+			}
+		}
+	}
+	"1811278"
+	{
+		"config"
+		{
+			"language" "swedish"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3677867531562376848"
+				"size" "2885674696"
+				"download" "2283070160"
+			}
+			"local"
+			{
+				"gid" "2898136342726613513"
+				"size" "2275940040"
+				"download" "2087114784"
+			}
+		}
+	}
+	"1811279"
+	{
+		"config"
+		{
+			"language" "czech"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2413117015465576690"
+				"size" "2885686008"
+				"download" "2283074848"
+			}
+			"local"
+			{
+				"gid" "576518218303582214"
+				"size" "2275950425"
+				"download" "2087119488"
+			}
+		}
+	}
+	"1827531"
+	{
+		"config"
+		{
+			"language" "turkish"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6304437010874409815"
+				"size" "2885687220"
+				"download" "2283072384"
+			}
+			"local"
+			{
+				"gid" "2502142610787933775"
+				"size" "2275952229"
+				"download" "2087117040"
+			}
+		}
+	}
+	"1827532"
+	{
+		"config"
+		{
+			"language" "arabic"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3351902535718888052"
+				"size" "1897714076"
+				"download" "1621740256"
+			}
+			"local"
+			{
+				"gid" "4156742577460588409"
+				"size" "1582066796"
+				"download" "1456526800"
+			}
+		}
+	}
+	"1827533"
+	{
+		"config"
+		{
+			"language" "brazilian"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5125589974780851308"
+				"size" "1652813573"
+				"download" "1452286160"
+			}
+			"local"
+			{
+				"gid" "4438413237598750565"
+				"size" "1385764049"
+				"download" "1272664256"
+			}
+		}
+	}
+	"1827534"
+	{
+		"config"
+		{
+			"language" "latam"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4241687124564724125"
+				"size" "1677096902"
+				"download" "1473483888"
+			}
+			"local"
+			{
+				"gid" "7111110270351611846"
+				"size" "1446155613"
+				"download" "1324554352"
+			}
+		}
+	}
+	"3340991"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8338176014021574110"
+				"size" "236555927"
+				"download" "238692112"
+			}
+		}
+		"depotfromapp" "3340990"
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "11957221"
+			"timeupdated" "1692262835"
+		}
+		"local"
+		{
+			"buildid" "9608844"
+			"description" "Local Content Server"
+			"lcsrequired" "1"
+			"timeupdated" "1664369322"
+		}
+	}
+	"privatebranches" "1"
+}
+"_missing_token" "False"
+"_change_number" "28236475"
+"_sha" "40ca8997b93ae741b9b33caa6cb4cf988525be51"
+"_size" "13749"

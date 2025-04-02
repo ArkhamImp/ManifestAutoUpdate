@@ -1,0 +1,701 @@
+"appid" "1934680"
+"common"
+{
+	"name" "Age of Mythology: Retold"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows"
+	"osarch" "64"
+	"osextended" ""
+	"icon" "c69b2245190abb7c95d01f4aff4ffdd7f2b2adc6"
+	"clienticon" "b55ba28afec5f40830c9fa07ec282b788deb30fd"
+	"clienttga" "26310cf1d684eb16e240aa81cdf914bdb6cb9f8c"
+	"eulas"
+	{
+		"0"
+		{
+			"id" "1934680_eula_1"
+			"name" "Age of Mythology: Retold EULA"
+			"url" "https://store.steampowered.com//eula/1934680_eula_1"
+			"version" "5"
+		}
+	}
+	"languages"
+	{
+		"english" "1"
+		"german" "1"
+		"french" "1"
+		"italian" "1"
+		"koreana" "1"
+		"spanish" "1"
+		"schinese" "1"
+		"tchinese" "1"
+		"russian" "1"
+		"thai" "1"
+		"japanese" "1"
+		"portuguese" "1"
+		"polish" "1"
+		"danish" "1"
+		"dutch" "1"
+		"finnish" "1"
+		"norwegian" "1"
+		"swedish" "1"
+		"hungarian" "1"
+		"czech" "1"
+		"turkish" "1"
+		"arabic" "1"
+		"brazilian" "1"
+		"greek" "1"
+		"vietnamese" "1"
+		"latam" "1"
+	}
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1730246400"
+		"tested_build_id" "16048929"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-experimental"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
+		}
+	}
+	"metacritic_name" "Age of Mythology: Retold"
+	"controllertagwizard" "1"
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "296d05f1402b49ef041229b6268fa026b5e627a0/capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"library_header" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "62.57275902211876"
+			"height_pct" "98.25457136072191"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "CenterCenter"
+				"width_pct" "62.57275902211876"
+				"height_pct" "98.25457136072191"
+			}
+		}
+		"library_header"
+		{
+			"image"
+			{
+				"english" "library_header.jpg"
+			}
+		}
+	}
+	"store_asset_mtime" "1741042077"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "World\'s Edge"
+		}
+		"1"
+		{
+			"type" "developer"
+			"name" "Forgotten Empires"
+		}
+		"2"
+		{
+			"type" "developer"
+			"name" "Tantalus Media"
+		}
+		"3"
+		{
+			"type" "developer"
+			"name" "CaptureAge"
+		}
+		"4"
+		{
+			"type" "developer"
+			"name" "Virtuos Games"
+		}
+		"5"
+		{
+			"type" "publisher"
+			"name" "Xbox Game Studios"
+		}
+	}
+	"primary_genre" "2"
+	"genres"
+	{
+		"0" "2"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_1" "1"
+		"category_49" "1"
+		"category_36" "1"
+		"category_9" "1"
+		"category_38" "1"
+		"category_27" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_17" "1"
+		"category_18" "1"
+		"category_45" "1"
+		"category_46" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"italian"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"danish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"dutch"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"finnish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"greek"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"japanese"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"koreana"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"norwegian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"polish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"brazilian"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"portuguese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"latam"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"swedish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"thai"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"tchinese"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"turkish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"vietnamese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"czech"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"hungarian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1725469200"
+	"metacritic_score" "83"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/age-of-mythology-retold\?ftag=MCD-06-10aaa1f"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "1934680"
+	"store_tags"
+	{
+		"0" "9"
+		"1" "1676"
+		"2" "7332"
+		"3" "16094"
+		"4" "1723"
+		"5" "1684"
+		"6" "3859"
+		"7" "4791"
+		"8" "4057"
+		"9" "8945"
+		"10" "8122"
+		"11" "1669"
+		"12" "1775"
+		"13" "6730"
+		"14" "4182"
+		"15" "1685"
+		"16" "1742"
+		"17" "3843"
+		"18" "4161"
+		"19" "4191"
+	}
+	"review_score" "8"
+	"review_percentage" "89"
+}
+"extended"
+{
+	"developer" "World\'s Edge"
+	"publisher" "Xbox Game Studios"
+	"homepage" "https://www.ageofempires.com/games/aom/age-of-mythology-retold/"
+	"listofdlc" "2991160,2991170,2991190"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"installdir" "Age of Mythology Retold"
+	"launch"
+	{
+		"1"
+		{
+			"executable" "AoMRT_s.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+		}
+		"2"
+		{
+			"executable" "AOMX.exe"
+			"type" "default"
+			"config"
+			{
+				"betakey" "athens-legacy-final"
+			}
+		}
+	}
+	"steamcontrollertemplateindex" "1"
+	"steamcontrollerconfigdetails"
+	{
+		"3010467060"
+		{
+			"controller_type" "controller_xbox360"
+			"enabled_branches" "default"
+			"use_action_block" "false"
+		}
+		"3010465309"
+		{
+			"controller_type" "controller_xboxone"
+			"enabled_branches" "default"
+			"use_action_block" "false"
+		}
+		"3010470314"
+		{
+			"controller_type" "controller_ps4"
+			"enabled_branches" "default"
+			"use_action_block" "false"
+		}
+		"3010468737"
+		{
+			"controller_type" "controller_ps5"
+			"enabled_branches" "default"
+			"use_action_block" "false"
+		}
+	}
+	"steamdecktouchscreen" "1"
+	"steamconfigurator3rdpartynative" "65535"
+}
+"depots"
+{
+	"228989"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"baselanguages" "english,german,french,italian,koreana,spanish,schinese,tchinese,russian,thai,japanese,portuguese,polish,danish,dutch,finnish,norwegian,swedish,hungarian,czech,turkish,brazilian,greek,latam,vietnamese,indonesian"
+	"1934681"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3378436108252973250"
+				"size" "29298855790"
+				"download" "14937426864"
+			}
+		}
+	}
+	"1934685"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+		}
+	}
+	"1934686"
+	{
+		"manifests"
+		{
+		}
+	}
+	"1934687"
+	{
+		"manifests"
+		{
+		}
+	}
+	"1934688"
+	{
+		"manifests"
+		{
+		}
+	}
+	"1934689"
+	{
+		"manifests"
+		{
+		}
+	}
+	"2991161"
+	{
+		"config"
+		{
+			"language" "german"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7841894146688263769"
+				"size" "377593885"
+				"download" "341878064"
+			}
+		}
+	}
+	"2991162"
+	{
+		"config"
+		{
+			"language" "spanish"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "598774348368579443"
+				"size" "368421203"
+				"download" "327167696"
+			}
+		}
+	}
+	"2991163"
+	{
+		"config"
+		{
+			"language" "latam"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1189472356502059041"
+				"size" "354142140"
+				"download" "298161584"
+			}
+		}
+	}
+	"2991164"
+	{
+		"config"
+		{
+			"language" "french"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1660702709019303024"
+				"size" "361911826"
+				"download" "309335856"
+			}
+		}
+	}
+	"2991165"
+	{
+		"config"
+		{
+			"language" "italian"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2286136965574695227"
+				"size" "374558732"
+				"download" "328947728"
+			}
+		}
+	}
+	"2991166"
+	{
+		"config"
+		{
+			"language" "japanese"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4921767365350312209"
+				"size" "368100854"
+				"download" "324664176"
+			}
+		}
+	}
+	"2991167"
+	{
+		"config"
+		{
+			"language" "koreana"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2460050998358494893"
+				"size" "355024379"
+				"download" "324362688"
+			}
+		}
+	}
+	"2991168"
+	{
+		"config"
+		{
+			"language" "brazilian"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8251433519422151292"
+				"size" "376393848"
+				"download" "320209568"
+			}
+		}
+	}
+	"2991169"
+	{
+		"config"
+		{
+			"language" "schinese"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7408446790083819453"
+				"size" "383494468"
+				"download" "311663728"
+			}
+		}
+	}
+	"2991171"
+	{
+		"config"
+		{
+			"language" "tchinese"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3329582431198545592"
+				"size" "387336996"
+				"download" "333567728"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "17759760"
+			"timeupdated" "1742490783"
+		}
+	}
+	"privatebranches" "1"
+}
+"ufs"
+{
+	"quota" "10000000000"
+	"maxnumfiles" "10000"
+}
+"_missing_token" "False"
+"_change_number" "28266345"
+"_sha" "2cb48b25e65973f30fc585579dcd5dd944a0b212"
+"_size" "11364"

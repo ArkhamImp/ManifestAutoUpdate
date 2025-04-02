@@ -1,0 +1,272 @@
+"appid" "1991040"
+"common"
+{
+	"name" "学生时代"
+	"type" "Game"
+	"name_localized"
+	{
+		"english" "School Days"
+	}
+	"oslist" "windows"
+	"osarch" ""
+	"osextended" ""
+	"clienttga" "0be3bebc55b536331fa5b1a9e977348944b953e3"
+	"clienticon" "ff744343d2bff0a059cb9d09a256ff054e042e93"
+	"icon" "b4db63d9df7aaeef16b94109653823fd55cb8440"
+	"releasestate" "released"
+	"content_descriptors"
+	{
+		"0" "1"
+		"1" "5"
+	}
+	"aicontenttype" "1"
+	"controllertagwizard" "1"
+	"small_capsule"
+	{
+		"english" "e9c0ac7a2963a263ae5d49bb91fad3331558f918/capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_hero_blur" "en"
+		"library_logo" "en"
+		"library_header" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "49.92726896933062"
+			"height_pct" "64.11540303995216"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "3591265b3e58f49568a6f8ea52a242e4b6a2120e/library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "3591265b3e58f49568a6f8ea52a242e4b6a2120e/library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image2x"
+			{
+				"english" "fca7a6817f0dc8fc1e55854a2e91d24e4e307813/library_hero_2x.jpg"
+			}
+			"image"
+			{
+				"english" "fca7a6817f0dc8fc1e55854a2e91d24e4e307813/library_hero.jpg"
+			}
+		}
+		"library_hero_blur"
+		{
+			"image"
+			{
+				"english" "fca7a6817f0dc8fc1e55854a2e91d24e4e307813/library_hero_blur.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "ebe1642641f9371d71069898ac633e9ea46c223d/logo.png"
+			}
+			"image2x"
+			{
+				"english" "ebe1642641f9371d71069898ac633e9ea46c223d/logo_2x.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "49.92726896933062"
+				"height_pct" "64.11540303995216"
+			}
+		}
+		"library_header"
+		{
+			"image"
+			{
+				"english" "abf84e8a6052e83f875a6c28f3e1d5c954b409f7/library_header.jpg"
+			}
+			"image2x"
+			{
+				"english" "abf84e8a6052e83f875a6c28f3e1d5c954b409f7/library_header_2x.jpg"
+			}
+		}
+	}
+	"store_asset_mtime" "1736302811"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "白雨工作室"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "白雨工作室"
+		}
+	}
+	"primary_genre" "23"
+	"genres"
+	{
+		"0" "23"
+		"1" "3"
+		"2" "28"
+		"3" "2"
+		"4" "70"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"schinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1738215974"
+	"community_visible_stats" "1"
+	"workshop_visible" "1"
+	"community_hub_visible" "1"
+	"gameid" "1991040"
+	"store_tags"
+	{
+		"0" "122"
+		"1" "1742"
+		"2" "597"
+		"3" "599"
+		"4" "10235"
+		"5" "492"
+		"6" "10397"
+		"7" "6971"
+		"8" "1036"
+		"9" "4085"
+		"10" "9551"
+		"11" "9"
+		"12" "6426"
+		"13" "5984"
+		"14" "3987"
+		"15" "3834"
+		"16" "9204"
+		"17" "3799"
+		"18" "4182"
+		"19" "1677"
+	}
+	"review_score" "6"
+	"review_percentage" "77"
+}
+"extended"
+{
+	"developer" "白雨工作室"
+	"publisher" "白雨工作室"
+}
+"config"
+{
+	"installdir" "StudentAge"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "StudentAge.exe"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+	}
+}
+"depots"
+{
+	"baselanguages" "schinese"
+	"1991041"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "9109121603292066375"
+				"size" "2569927823"
+				"download" "2097150560"
+			}
+			"local"
+			{
+				"gid" "963990996678586610"
+				"size" "639708466"
+				"download" "186771040"
+			}
+			"test"
+			{
+				"gid" "9109121603292066375"
+				"size" "2569927823"
+				"download" "2097150560"
+			}
+		}
+	}
+	"hasdepotsindlc" "0"
+	"workshopdepot" "1991040"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "17892207"
+			"timeupdated" "1743131383"
+		}
+		"local"
+		{
+			"buildid" "9964151"
+			"description" "Local Content Server"
+			"lcsrequired" "1"
+			"timeupdated" "1668737126"
+		}
+		"test"
+		{
+			"buildid" "17892207"
+			"description" "测试版"
+			"timeupdated" "1743131393"
+		}
+	}
+	"privatebranches" "1"
+}
+"ufs"
+{
+	"quota" "10000000000"
+	"maxnumfiles" "10000"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocalLow"
+			"path" "PakyiGame/StudentAge/Saves/{64BitSteamID}"
+			"pattern" "*"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "28183083"
+"_sha" "fec7b1a5dcaa3b68001f82247fed08db8f0ababc"
+"_size" "4672"

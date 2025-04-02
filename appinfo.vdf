@@ -1,0 +1,590 @@
+"appid" "238010"
+"common"
+{
+	"name" "Deus Ex: Human Revolution - Director\'s Cut"
+	"languages"
+	{
+		"english" "1"
+		"german" "1"
+		"french" "1"
+		"italian" "1"
+		"spanish" "1"
+	}
+	"clienticon" "528f8a65817e2d8b0a3f19006f6b055218acb056"
+	"clienttga" "226429076448dc62ae07601f243c8c904423c3d2"
+	"icon" "6c7ccd62c124ae63820e06ed9b24d4559c5b0b1f"
+	"logo" "4bcb3e48bcb2ebb52403b1fc3f43dbd43607ba2e"
+	"logo_small" "4bcb3e48bcb2ebb52403b1fc3f43dbd43607ba2e_thumb"
+	"releasestate" "released"
+	"oslist" "windows,macos"
+	"eulas"
+	{
+		"0"
+		{
+			"id" "238010_eula_0"
+			"name" "Deus Ex: Human Revolution - Director\'s Cut EULA"
+			"url" "http://store.steampowered.com/eula/238010_eula_0"
+			"version" "6"
+		}
+	}
+	"clienticns" "edb3811483a72e7ef631747dce2fee16bae513c6"
+	"sortas" "Deus Ex 3: Human Revolution - Director\'s Cut"
+	"osarch" ""
+	"osextended" ""
+	"type" "game"
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1681862400"
+		"tested_build_id" "235963"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_LauncherInteractionIssues"
+			}
+			"1"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"4"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+			"5"
+			{
+				"display" "1"
+				"token" "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "1"
+			"primary_player_is_controller_slot_0" "1"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-8.0-1"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Deus Ex: Human Revolution - Director\'s Cut"
+	"controllertagwizard" "1"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "28"
+			"height_pct" "44"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "28"
+				"height_pct" "44"
+			}
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+		}
+	}
+	"store_asset_mtime" "1660684597"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Eidos Montreal"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Eidos Interactive Corp."
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "Deus Ex"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "3"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_14" "1"
+		"category_13" "1"
+		"category_12" "1"
+		"category_29" "1"
+		"category_45" "1"
+		"category_46" "1"
+		"category_42" "1"
+		"category_28" "1"
+		"category_55" "1"
+		"category_57" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"italian"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1382727600"
+	"metacritic_score" "91"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/deus-ex-human-revolution---directors-cut\?ftag=MCD-06-10aaa1f"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "238010"
+	"store_tags"
+	{
+		"0" "4115"
+		"1" "1687"
+		"2" "122"
+		"3" "3942"
+		"4" "1663"
+		"5" "19"
+		"6" "4182"
+		"7" "1742"
+		"8" "1756"
+		"9" "4137"
+		"10" "5030"
+		"11" "3839"
+		"12" "4166"
+		"13" "21"
+		"14" "9204"
+		"15" "6276"
+		"16" "3934"
+		"17" "1774"
+		"18" "4295"
+		"19" "4711"
+	}
+	"review_score" "8"
+	"review_percentage" "92"
+}
+"extended"
+{
+	"checkpkgstate" "1"
+	"developer" "Eidos Montreal"
+	"gamedir" "ValveTestApp238010"
+	"homepage" ""
+	"icon" ""
+	"noservers" "0"
+	"sourcegame" "1"
+	"state" "eStateComingSoonNoPreload"
+	"visibleonlywhensubscribed" "1"
+	"publisher" "Eidos Interactive Corp."
+	"gamemanualurl" "https://store.steampowered.com/manual/238010/"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Deus Ex Human Revolution Director\'s Cut"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "DXHRDC.exe"
+			"description" "Launch Game"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+		"1"
+		{
+			"executable" "Deus Ex Human Revolution - Directors Cut.app"
+			"description" "Mac Binary"
+			"config"
+			{
+				"oslist" "macos"
+			}
+		}
+		"2"
+		{
+			"executable" "dx3_64.exe"
+			"config"
+			{
+				"oslist" "windows"
+				"betakey" "Typhoon"
+			}
+		}
+	}
+	"steamcontrollertemplateindex" "2"
+	"steamcontrollertouchtemplateindex" "1"
+	"steamcontrollertouchconfigdetails"
+	{
+		"2209296865"
+		{
+			"controller_type" "controller_mobile_touch"
+			"enabled_branches" "default"
+			"use_action_block" "false"
+		}
+	}
+}
+"depots"
+{
+	"overridescddb" "1"
+	"baselanguages" "english,german,french,italian,spanish"
+	"markdlcdepots" "1"
+	"228982"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"238011"
+	{
+		"systemdefined" "1"
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3713416179209888216"
+				"size" "18979009457"
+				"download" "0"
+			}
+		}
+	}
+	"238012"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8468891009692490153"
+				"size" "13832276"
+				"download" "0"
+			}
+		}
+	}
+	"238013"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4896057158797043005"
+				"size" "22613306"
+				"download" "0"
+			}
+			"local"
+			{
+				"gid" "4177828959699692250"
+				"size" "22615166"
+				"download" "0"
+			}
+		}
+	}
+	"238014"
+	{
+		"config"
+		{
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "788073744100266495"
+				"size" "23887412936"
+				"download" "0"
+			}
+			"local"
+			{
+				"gid" "788073744100266495"
+				"size" "23887412936"
+				"download" "0"
+			}
+		}
+	}
+	"238015"
+	{
+		"config"
+		{
+			"language" "english"
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1575047298883283279"
+				"size" "2"
+				"download" "0"
+			}
+			"local"
+			{
+				"gid" "1575047298883283279"
+				"size" "2"
+				"download" "0"
+			}
+		}
+	}
+	"238016"
+	{
+		"config"
+		{
+			"language" "french"
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "424284303960168389"
+				"size" "2"
+				"download" "0"
+			}
+			"local"
+			{
+				"gid" "424284303960168389"
+				"size" "2"
+				"download" "0"
+			}
+		}
+	}
+	"238017"
+	{
+		"config"
+		{
+			"language" "german"
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "399911174305933458"
+				"size" "2"
+				"download" "0"
+			}
+			"local"
+			{
+				"gid" "399911174305933458"
+				"size" "2"
+				"download" "0"
+			}
+		}
+	}
+	"238018"
+	{
+		"config"
+		{
+			"language" "italian"
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "37886613576930411"
+				"size" "2"
+				"download" "0"
+			}
+			"local"
+			{
+				"gid" "37886613576930411"
+				"size" "2"
+				"download" "0"
+			}
+		}
+	}
+	"238019"
+	{
+		"config"
+		{
+			"language" "spanish"
+			"oslist" "macos"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2695054890249925859"
+				"size" "2"
+				"download" "0"
+			}
+			"local"
+			{
+				"gid" "2695054890249925859"
+				"size" "2"
+				"download" "0"
+			}
+		}
+	}
+	"238020"
+	{
+		"config"
+		{
+			"language" "polish"
+			"oslist" "macos"
+		}
+	}
+	"238021"
+	{
+		"config"
+		{
+			"language" "russian"
+			"oslist" "macos"
+		}
+	}
+	"238022"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+		}
+	}
+	"238023"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "235963"
+		}
+		"local"
+		{
+			"buildid" "235942"
+			"description" "Local Content Server"
+			"lcsrequired" "1"
+		}
+	}
+	"privatebranches" "1"
+}
+"ufs"
+{
+	"quota" "104857600"
+	"maxnumfiles" "1000"
+}
+"_missing_token" "False"
+"_change_number" "27924129"
+"_sha" "262a11363ec0f3d4471b6d22cc8819a11b7e3c3f"
+"_size" "9719"

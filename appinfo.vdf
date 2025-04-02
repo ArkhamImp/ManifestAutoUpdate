@@ -1,0 +1,960 @@
+"appid" "460930"
+"common"
+{
+	"name" "Tom Clancy\'s Ghost Recon® Wildlands"
+	"type" "Game"
+	"logo" "4f062784229bf1b3228c5ac295f995508e83c856"
+	"logo_small" "4f062784229bf1b3228c5ac295f995508e83c856_thumb"
+	"icon" "ddd459159befc6a8cd6c4cb0e2a13c2fd2f8b065"
+	"releasestate" "released"
+	"eulas"
+	{
+		"0"
+		{
+			"id" "460930_eula_0"
+			"name" "Tom Clancy\'s Ghost Recon Wildlands EULA"
+			"url" "http://store.steampowered.com//eula/460930_eula_0"
+			"version" "2"
+		}
+	}
+	"clienticon" "21022841aa237176b06733a3967619df1f3c1f72"
+	"clienttga" "fc172048ce2911dda223459fd0d6eb33cc7919bd"
+	"exfgls" "1"
+	"languages"
+	{
+		"english" "1"
+		"german" "1"
+		"french" "1"
+		"italian" "1"
+		"koreana" "1"
+		"spanish" "1"
+		"schinese" "1"
+		"tchinese" "1"
+		"russian" "1"
+		"japanese" "1"
+		"portuguese" "1"
+		"polish" "1"
+		"danish" "1"
+		"dutch" "1"
+		"finnish" "1"
+		"norwegian" "1"
+		"swedish" "1"
+		"hungarian" "1"
+		"czech" "1"
+		"arabic" "1"
+		"brazilian" "1"
+		"latam" "1"
+	}
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1689206400"
+		"tested_build_id" "5948128"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_LauncherInteractionIssues"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+			}
+			"2"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"3"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+			}
+			"4"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_GameOrLauncherDoesntExitCleanly"
+			}
+			"5"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+			}
+			"6"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+			"7"
+			{
+				"display" "1"
+				"token" "#SteamDeckVerified_TestResult_FirstTimeSetupRequiresActiveInternetConnection"
+			}
+			"8"
+			{
+				"display" "1"
+				"token" "#SteamDeckVerified_TestResult_SingleplayerGameplayRequiresActiveInternetConnection"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "1"
+			"requires_non_controller_launcher_nav" "1"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "0"
+			"requires_internet_for_setup" "1"
+			"requires_internet_for_singleplayer" "1"
+			"recommended_runtime" "proton-experimental"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+		}
+	}
+	"metacritic_name" "Tom Clancy\'s Ghost Recon® Wildlands"
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "53"
+			"height_pct" "56"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "CenterCenter"
+				"width_pct" "53"
+				"height_pct" "56"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+		}
+	}
+	"store_asset_mtime" "1576601417"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Ubisoft Paris"
+		}
+		"1"
+		{
+			"type" "developer"
+			"name" "Ubisoft Annecy"
+		}
+		"2"
+		{
+			"type" "developer"
+			"name" "Ubisoft Bucharest"
+		}
+		"3"
+		{
+			"type" "developer"
+			"name" "Ubisoft Montpellier"
+		}
+		"4"
+		{
+			"type" "developer"
+			"name" "Ubisoft Milan"
+		}
+		"5"
+		{
+			"type" "developer"
+			"name" "Reflections"
+		}
+		"6"
+		{
+			"type" "developer"
+			"name" "Ubisoft Belgrade"
+		}
+		"7"
+		{
+			"type" "publisher"
+			"name" "Ubisoft"
+		}
+		"8"
+		{
+			"type" "franchise"
+			"name" "Ghost Recon Franchise"
+		}
+	}
+	"primary_genre" "25"
+	"genres"
+	{
+		"0" "1"
+		"1" "25"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_1" "1"
+		"category_9" "1"
+		"category_29" "1"
+		"category_18" "1"
+		"category_35" "1"
+		"category_45" "1"
+		"category_46" "1"
+		"category_22" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"italian"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"arabic"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"tchinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"koreana"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"japanese"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"dutch"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"polish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"brazilian"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"czech"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"latam"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1488862800"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "460930"
+	"store_tags"
+	{
+		"0" "1695"
+		"1" "1774"
+		"2" "1685"
+		"3" "1687"
+		"4" "3859"
+		"5" "1708"
+		"6" "4182"
+		"7" "19"
+		"8" "4168"
+		"9" "3814"
+		"10" "1663"
+		"11" "3843"
+		"12" "1697"
+		"13" "21"
+		"14" "1662"
+		"15" "9"
+		"16" "3810"
+		"17" "3839"
+		"18" "4166"
+		"19" "1775"
+	}
+	"review_score" "6"
+	"review_percentage" "79"
+}
+"extended"
+{
+	"allowmicrotxnfromrestrictedcountries" "0"
+	"microtxnrestrictedcountries" "RU,BY"
+	"developer" "Ubisoft Paris"
+	"publisher" "Ubisoft"
+	"homepage" "http://ghostrecon.com"
+	"listofdlc" "573830,573831,573832,594560,594561,601290,601291,601292,601293,601294,601295,601296,601297,601298,601300,601301,601302,601303,601310,623780,623781,729730,733960,733970,750230,751960,832700,832701,931190,931191,931192,931193"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"contenttype" "3"
+	"installdir" "Wildlands"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "GRW.exe"
+			"arguments" "-uplay_steam_mode"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"ownsdlc" "733970"
+			}
+		}
+		"1"
+		{
+			"executable" "GRW.exe"
+			"arguments" "-upc_steam_free_package_id 14255 -uplay_steam_mode"
+			"description" "Free Weekend WW"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"ownsdlc" "729730"
+			}
+		}
+		"2"
+		{
+			"executable" "GRW.exe"
+			"arguments" "-upc_steam_free_package_id 14256 -uplay_steam_mode"
+			"description" "Free Weekend RU/CN"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+				"ownsdlc" "733960"
+			}
+		}
+	}
+	"steamcontrollertemplateindex" "1"
+	"steamcontrollerconfigdetails"
+	{
+		"865043660"
+		{
+			"controller_type" "controller_steamcontroller_gordon"
+			"enabled_branches" ""
+		}
+		"927438053"
+		{
+			"controller_type" "controller_steamcontroller_gordon"
+			"enabled_branches" "default,dlctest,internalqc,internalqc-tu1.5,internalqc-tu2,internalqc-tu3-narco,internalqc-tu3.5,internalqc-tu4-fallen,local"
+		}
+		"927495341"
+		{
+			"controller_type" "controller_steamcontroller_gordon"
+			"enabled_branches" "default,dlctest,internalqc,internalqc-tu1.5,internalqc-tu2,internalqc-tu3-narco,internalqc-tu3.5,internalqc-tu4-fallen,local"
+		}
+	}
+}
+"depots"
+{
+	"baselanguages" "english"
+	"228984"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228986"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"460932"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4925482683944733643"
+				"size" "7665598313"
+				"download" "5661657136"
+			}
+		}
+	}
+	"460933"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "327746146178771991"
+				"size" "0"
+				"download" "0"
+			}
+		}
+	}
+	"460934"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4444935984325081985"
+				"size" "16380395520"
+				"download" "13315317888"
+			}
+		}
+	}
+	"460935"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "9199072077909944392"
+				"size" "35046719488"
+				"download" "27064195712"
+			}
+		}
+	}
+	"460936"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8051295774455126082"
+				"size" "5220368384"
+				"download" "3539830832"
+			}
+		}
+	}
+	"460937"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1905479328869316905"
+				"size" "6181701928"
+				"download" "6116103056"
+			}
+		}
+	}
+	"460938"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5496547418910000312"
+				"size" "4636839323"
+				"download" "4295556464"
+			}
+		}
+	}
+	"460939"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4811991489032470258"
+				"size" "930"
+				"download" "528"
+			}
+		}
+	}
+	"527063"
+	{
+		"config"
+		{
+			"language" "english"
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "222418595712558555"
+				"size" "7230"
+				"download" "2688"
+			}
+		}
+	}
+	"527050"
+	{
+		"config"
+		{
+			"language" "french"
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6133416095183290669"
+				"size" "595519154"
+				"download" "552248096"
+			}
+		}
+	}
+	"527051"
+	{
+		"config"
+		{
+			"language" "italian"
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8704848836597241185"
+				"size" "509311856"
+				"download" "466086944"
+			}
+		}
+	}
+	"527052"
+	{
+		"config"
+		{
+			"language" "german"
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7953425400952113538"
+				"size" "498448079"
+				"download" "455099408"
+			}
+		}
+	}
+	"527053"
+	{
+		"config"
+		{
+			"language" "spanish"
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3188754202211716325"
+				"size" "979416373"
+				"download" "892364704"
+			}
+		}
+	}
+	"527054"
+	{
+		"config"
+		{
+			"language" "brazilian"
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2125566137229626735"
+				"size" "496596327"
+				"download" "452998080"
+			}
+		}
+	}
+	"527055"
+	{
+		"config"
+		{
+			"language" "russian"
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7137644527826082354"
+				"size" "654582308"
+				"download" "610218576"
+			}
+		}
+	}
+	"527056"
+	{
+		"config"
+		{
+			"language" "japanese"
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7414914160411395915"
+				"size" "660745617"
+				"download" "616092992"
+			}
+		}
+	}
+	"527057"
+	{
+		"config"
+		{
+			"language" "dutch"
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6207633329687923501"
+				"size" "7859"
+				"download" "2816"
+			}
+		}
+	}
+	"527058"
+	{
+		"config"
+		{
+			"language" "polish"
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2115994499122544238"
+				"size" "7903"
+				"download" "3104"
+			}
+		}
+	}
+	"527059"
+	{
+		"config"
+		{
+			"language" "czech"
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5196520543398736486"
+				"size" "7717"
+				"download" "3008"
+			}
+		}
+	}
+	"527060"
+	{
+		"config"
+		{
+			"language" "koreana"
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6909220124751877463"
+				"size" "8117"
+				"download" "2944"
+			}
+		}
+	}
+	"527061"
+	{
+		"config"
+		{
+			"language" "schinese"
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5809069132872559849"
+				"size" "6037"
+				"download" "2352"
+			}
+		}
+	}
+	"527062"
+	{
+		"config"
+		{
+			"language" "tchinese"
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6854033068166781157"
+				"size" "6116"
+				"download" "2368"
+			}
+		}
+	}
+	"527064"
+	{
+		"config"
+		{
+			"language" "arabic"
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8291120964054423790"
+				"size" "9806"
+				"download" "2912"
+			}
+		}
+	}
+	"527065"
+	{
+		"config"
+		{
+			"language" "latam"
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "646189603913890033"
+				"size" "481587589"
+				"download" "438225200"
+			}
+		}
+	}
+	"573831"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"dlcappid" "573831"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "504287665923200055"
+				"size" "7405725764"
+				"download" "5622611136"
+			}
+		}
+	}
+	"573832"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"dlcappid" "573832"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1388355723944228642"
+				"size" "6759136163"
+				"download" "4852439392"
+			}
+		}
+	}
+	"1716751"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3341282173115166582"
+				"size" "239900768"
+				"download" "241746080"
+			}
+		}
+		"depotfromapp" "1716750"
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "12185816"
+			"timeupdated" "1695135600"
+		}
+	}
+	"privatebranches" "1"
+}
+"_missing_token" "False"
+"_change_number" "28091934"
+"_sha" "89a8147138d2424064ef6d351c25029efde4a432"
+"_size" "15469"

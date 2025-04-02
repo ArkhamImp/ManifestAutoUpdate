@@ -1,0 +1,1189 @@
+"appid" "1058200"
+"common"
+{
+	"name" "Pixel Puzzles Traditional Jigsaw Puzzles"
+	"type" "Game"
+	"logo" "333bf22eee8f64622128cbfa6a6e758ca635b349"
+	"logo_small" "333bf22eee8f64622128cbfa6a6e758ca635b349_thumb"
+	"clienttga" "3db166501aa4ef4377a06c412306cf14a2abb19c"
+	"icon" "acb320e3b55a25c5b7b5b9a76a6bbe922c51f063"
+	"clienticon" "a2025789bde5b0eb8dac77095ee518a279e671eb"
+	"releasestate" "released"
+	"oslist" "windows"
+	"osarch" ""
+	"osextended" ""
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1658275200"
+		"tested_build_id" "8921805"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "1"
+		}
+	}
+	"metacritic_name" "Pixel Puzzles Traditional Jigsaws"
+	"controller_support" "partial"
+	"small_capsule"
+	{
+		"english" "0115ea81c2a0792751f2fd76b9747017b4fda474/capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_hero_blur" "en"
+		"library_logo" "en"
+		"library_header" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "72.4561403508772"
+			"height_pct" "100"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "8457c5e5a4bac65955727fdfeb16bdf5006307a0/library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "8457c5e5a4bac65955727fdfeb16bdf5006307a0/library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "b04f20e1f044771ea78a9f61ba2026108925eb7a/library_hero.jpg"
+			}
+		}
+		"library_hero_blur"
+		{
+			"image"
+			{
+				"english" "b04f20e1f044771ea78a9f61ba2026108925eb7a/library_hero_blur.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "eafefab5bd2c58c1c4911740d5adf13ea582598f/logo.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "CenterCenter"
+				"width_pct" "72.4561403508772"
+				"height_pct" "100"
+			}
+			"image2x"
+			{
+				"english" "eafefab5bd2c58c1c4911740d5adf13ea582598f/logo_2x.png"
+			}
+		}
+		"library_header"
+		{
+			"image"
+			{
+				"english" "ff287613911783c7f16fb570454a8d8ad416f288/library_header.jpg"
+			}
+			"image2x"
+			{
+				"english" "ff287613911783c7f16fb570454a8d8ad416f288/library_header_2x.jpg"
+			}
+		}
+	}
+	"store_asset_mtime" "1735673904"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Pixel Puzzles"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Pixel Puzzles"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "Pixel Puzzles"
+		}
+	}
+	"primary_genre" "4"
+	"genres"
+	{
+		"0" "4"
+		"1" "23"
+		"2" "28"
+		"3" "2"
+		"4" "37"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_15" "1"
+		"category_18" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"italian"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"indonesian"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"latam"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"czech"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"danish"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"dutch"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"finnish"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"hungarian"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"norwegian"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"polish"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"brazilian"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"portuguese"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"romanian"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"swedish"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"turkish"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1574085780"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "1058200"
+	"exfgls" "3"
+	"store_tags"
+	{
+		"0" "113"
+		"1" "597"
+		"2" "492"
+		"3" "1664"
+		"4" "599"
+		"5" "9"
+		"6" "3871"
+		"7" "17389"
+		"8" "1770"
+		"9" "1036"
+		"10" "1698"
+		"11" "21"
+		"12" "19"
+	}
+	"review_score" "6"
+	"review_percentage" "76"
+}
+"extended"
+{
+	"developer" "Pixel Puzzles"
+	"publisher" "Pixel Puzzles"
+	"homepage" "http://pixelpuzzles.co.uk"
+	"isfreeapp" "1"
+	"listofdlc" "1176150,1176151,1176152,1176153,1176154,1176155,1176156,1176157,1176158,1176159,1176180,1176181,1176182,1176183,1176184,1176185,1176186,1176187,1176188,1176189,1176200,1176201,1176202,1176203,1176204,1176206,1176207,1176209,1176210,1176211,1176212,1176213,1176214,1176215,1176216,1176217,1176226,1176227,1176228,1176233,1176241,1176243,1176244"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"installdir" "Pixel Puzzles Traditional"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Pixel Puzzles Traditional Jigsaws.exe"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+	}
+}
+"depots"
+{
+	"1058201"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3513798846090393337"
+				"size" "590318540"
+				"download" "551065488"
+			}
+		}
+	}
+	"1176150"
+	{
+		"dlcappid" "1176150"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7393439702687853994"
+				"size" "65059551"
+				"download" "65331456"
+			}
+		}
+	}
+	"1176153"
+	{
+		"dlcappid" "1176153"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3252867801004531210"
+				"size" "163442793"
+				"download" "163887664"
+			}
+		}
+	}
+	"1176152"
+	{
+		"dlcappid" "1176152"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3152430701475486697"
+				"size" "37957464"
+				"download" "37971120"
+			}
+		}
+	}
+	"1176151"
+	{
+		"dlcappid" "1176151"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6635889291740516478"
+				"size" "77191783"
+				"download" "77437424"
+			}
+		}
+	}
+	"1176156"
+	{
+		"dlcappid" "1176156"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2604651134845599182"
+				"size" "42310799"
+				"download" "42413648"
+			}
+		}
+	}
+	"1176155"
+	{
+		"dlcappid" "1176155"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3645740104603600593"
+				"size" "168460561"
+				"download" "168704176"
+			}
+		}
+	}
+	"1176154"
+	{
+		"dlcappid" "1176154"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2882197205572048031"
+				"size" "79181596"
+				"download" "79398176"
+			}
+		}
+	}
+	"1176159"
+	{
+		"dlcappid" "1176159"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7251716581877861095"
+				"size" "55068740"
+				"download" "55211936"
+			}
+		}
+	}
+	"1176157"
+	{
+		"dlcappid" "1176157"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6753489129173104003"
+				"size" "70057208"
+				"download" "70249648"
+			}
+		}
+	}
+	"1176158"
+	{
+		"dlcappid" "1176158"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2247295961591442094"
+				"size" "175071163"
+				"download" "175483728"
+			}
+		}
+	}
+	"1176181"
+	{
+		"dlcappid" "1176181"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7310671290121873158"
+				"size" "172040206"
+				"download" "172495024"
+			}
+		}
+	}
+	"1176180"
+	{
+		"dlcappid" "1176180"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "336221316143303549"
+				"size" "159827491"
+				"download" "160274400"
+			}
+		}
+	}
+	"1176182"
+	{
+		"dlcappid" "1176182"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7871209523713939710"
+				"size" "93895622"
+				"download" "94098432"
+			}
+		}
+	}
+	"1176185"
+	{
+		"dlcappid" "1176185"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3441862276694162912"
+				"size" "51788111"
+				"download" "51902960"
+			}
+		}
+	}
+	"1176184"
+	{
+		"dlcappid" "1176184"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7929126693731256861"
+				"size" "90285724"
+				"download" "90379152"
+			}
+		}
+	}
+	"1176183"
+	{
+		"dlcappid" "1176183"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7865156459345725707"
+				"size" "110246661"
+				"download" "110562256"
+			}
+		}
+	}
+	"1176189"
+	{
+		"dlcappid" "1176189"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3109608443398721140"
+				"size" "64042878"
+				"download" "64148528"
+			}
+		}
+	}
+	"1176187"
+	{
+		"dlcappid" "1176187"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2066930629954660261"
+				"size" "94352727"
+				"download" "94579872"
+			}
+		}
+	}
+	"1176188"
+	{
+		"dlcappid" "1176188"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "587827406218544538"
+				"size" "99920489"
+				"download" "100075616"
+			}
+		}
+	}
+	"1176186"
+	{
+		"dlcappid" "1176186"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "74478588377264843"
+				"size" "121272063"
+				"download" "121597232"
+			}
+		}
+	}
+	"1176201"
+	{
+		"dlcappid" "1176201"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1170342316170803539"
+				"size" "122967959"
+				"download" "123291520"
+			}
+		}
+	}
+	"1176200"
+	{
+		"dlcappid" "1176200"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5086490735115879308"
+				"size" "85281926"
+				"download" "85396336"
+			}
+		}
+	}
+	"1176203"
+	{
+		"dlcappid" "1176203"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3386469607163627864"
+				"size" "29184479"
+				"download" "29229584"
+			}
+		}
+	}
+	"1176202"
+	{
+		"dlcappid" "1176202"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6805224698512306054"
+				"size" "93428751"
+				"download" "93746064"
+			}
+		}
+	}
+	"1176204"
+	{
+		"dlcappid" "1176204"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3338148217428967696"
+				"size" "86270154"
+				"download" "86528576"
+			}
+		}
+	}
+	"1176205"
+	{
+		"dlcappid" "1176205"
+	}
+	"1176208"
+	{
+		"dlcappid" "1176208"
+	}
+	"1176207"
+	{
+		"dlcappid" "1176207"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8479849912215027849"
+				"size" "123059722"
+				"download" "123374064"
+			}
+		}
+	}
+	"1176206"
+	{
+		"dlcappid" "1176206"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8746949265033265409"
+				"size" "41101503"
+				"download" "41167760"
+			}
+		}
+	}
+	"1176210"
+	{
+		"dlcappid" "1176210"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7459099541374676373"
+				"size" "157807165"
+				"download" "158254704"
+			}
+		}
+	}
+	"1176209"
+	{
+		"dlcappid" "1176209"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3540395099579314132"
+				"size" "175309284"
+				"download" "175618080"
+			}
+		}
+	}
+	"1176213"
+	{
+		"dlcappid" "1176213"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "958656149465897444"
+				"size" "159751286"
+				"download" "160129312"
+			}
+		}
+	}
+	"1176214"
+	{
+		"dlcappid" "1176214"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8499108458322342397"
+				"size" "96608800"
+				"download" "96732416"
+			}
+		}
+	}
+	"1176212"
+	{
+		"dlcappid" "1176212"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7878458085237753456"
+				"size" "157103629"
+				"download" "157456032"
+			}
+		}
+	}
+	"1176211"
+	{
+		"dlcappid" "1176211"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "4312490227676760572"
+				"size" "163643903"
+				"download" "164172992"
+			}
+		}
+	}
+	"1176217"
+	{
+		"dlcappid" "1176217"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6870541727006440767"
+				"size" "79964918"
+				"download" "80125296"
+			}
+		}
+	}
+	"1176215"
+	{
+		"dlcappid" "1176215"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "6577984152028849718"
+				"size" "157963767"
+				"download" "158392640"
+			}
+		}
+	}
+	"1176216"
+	{
+		"dlcappid" "1176216"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8870294756078080736"
+				"size" "163805342"
+				"download" "163914768"
+			}
+		}
+	}
+	"1176221"
+	{
+		"dlcappid" "1176221"
+	}
+	"1176219"
+	{
+		"dlcappid" "1176219"
+	}
+	"1176220"
+	{
+		"dlcappid" "1176220"
+	}
+	"1176218"
+	{
+		"dlcappid" "1176218"
+	}
+	"1176224"
+	{
+		"dlcappid" "1176224"
+	}
+	"1176223"
+	{
+		"dlcappid" "1176223"
+	}
+	"1176222"
+	{
+		"dlcappid" "1176222"
+	}
+	"1176225"
+	{
+		"dlcappid" "1176225"
+	}
+	"1176226"
+	{
+		"dlcappid" "1176226"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1346127446531509917"
+				"size" "35170731"
+				"download" "35171888"
+			}
+		}
+	}
+	"1176227"
+	{
+		"dlcappid" "1176227"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3113357022739342958"
+				"size" "145919167"
+				"download" "146380176"
+			}
+		}
+	}
+	"1176229"
+	{
+		"dlcappid" "1176229"
+	}
+	"1176228"
+	{
+		"dlcappid" "1176228"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "50757129908372388"
+				"size" "99617470"
+				"download" "99892832"
+			}
+		}
+	}
+	"1176232"
+	{
+		"dlcappid" "1176232"
+	}
+	"1176231"
+	{
+		"dlcappid" "1176231"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "1733831869921616775"
+				"size" "70393025"
+				"download" "70510384"
+			}
+		}
+	}
+	"1176234"
+	{
+		"dlcappid" "1176234"
+	}
+	"1176233"
+	{
+		"dlcappid" "1176233"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7617363897501401855"
+				"size" "74934720"
+				"download" "74914560"
+			}
+		}
+	}
+	"1176230"
+	{
+		"dlcappid" "1176230"
+	}
+	"1176237"
+	{
+		"dlcappid" "1176237"
+	}
+	"1176235"
+	{
+		"dlcappid" "1176235"
+	}
+	"1176236"
+	{
+		"dlcappid" "1176236"
+	}
+	"1176240"
+	{
+		"dlcappid" "1176240"
+	}
+	"1176243"
+	{
+		"dlcappid" "1176243"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "3822593469670998537"
+				"size" "41160094"
+				"download" "41188560"
+			}
+		}
+	}
+	"1176242"
+	{
+		"dlcappid" "1176242"
+	}
+	"1176241"
+	{
+		"dlcappid" "1176241"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5270140437041805551"
+				"size" "49758394"
+				"download" "49762448"
+			}
+		}
+	}
+	"1176246"
+	{
+		"dlcappid" "1176246"
+	}
+	"1176244"
+	{
+		"dlcappid" "1176244"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "5275421412562559819"
+				"size" "60287485"
+				"download" "60326512"
+			}
+		}
+	}
+	"1176245"
+	{
+		"dlcappid" "1176245"
+	}
+	"1176249"
+	{
+		"dlcappid" "1176249"
+	}
+	"1176247"
+	{
+		"dlcappid" "1176247"
+	}
+	"1176248"
+	{
+		"dlcappid" "1176248"
+	}
+	"1176251"
+	{
+		"dlcappid" "1176251"
+	}
+	"1176250"
+	{
+		"dlcappid" "1176250"
+	}
+	"1176252"
+	{
+		"dlcappid" "1176252"
+	}
+	"1176254"
+	{
+		"dlcappid" "1176254"
+	}
+	"1176253"
+	{
+		"dlcappid" "1176253"
+	}
+	"1176256"
+	{
+		"dlcappid" "1176256"
+	}
+	"1176255"
+	{
+		"dlcappid" "1176255"
+	}
+	"1176257"
+	{
+		"dlcappid" "1176257"
+	}
+	"1176259"
+	{
+		"dlcappid" "1176259"
+	}
+	"1176258"
+	{
+		"dlcappid" "1176258"
+	}
+	"1176261"
+	{
+		"dlcappid" "1176261"
+	}
+	"1176262"
+	{
+		"dlcappid" "1176262"
+	}
+	"1176260"
+	{
+		"dlcappid" "1176260"
+	}
+	"1176263"
+	{
+		"dlcappid" "1176263"
+	}
+	"1176266"
+	{
+		"dlcappid" "1176266"
+	}
+	"1176265"
+	{
+		"dlcappid" "1176265"
+	}
+	"1176264"
+	{
+		"dlcappid" "1176264"
+	}
+	"1176267"
+	{
+		"dlcappid" "1176267"
+	}
+	"1176269"
+	{
+		"dlcappid" "1176269"
+	}
+	"1176268"
+	{
+		"dlcappid" "1176268"
+	}
+	"1176270"
+	{
+		"dlcappid" "1176270"
+	}
+	"1176275"
+	{
+		"dlcappid" "1176275"
+	}
+	"1176274"
+	{
+		"dlcappid" "1176274"
+	}
+	"1176271"
+	{
+		"dlcappid" "1176271"
+	}
+	"1176272"
+	{
+		"dlcappid" "1176272"
+	}
+	"1176273"
+	{
+		"dlcappid" "1176273"
+	}
+	"1176278"
+	{
+		"dlcappid" "1176278"
+	}
+	"1176277"
+	{
+		"dlcappid" "1176277"
+	}
+	"1176276"
+	{
+		"dlcappid" "1176276"
+	}
+	"1176279"
+	{
+		"dlcappid" "1176279"
+	}
+	"1176280"
+	{
+		"dlcappid" "1176280"
+	}
+	"1176281"
+	{
+		"dlcappid" "1176281"
+	}
+	"baselanguages" "english"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "17908986"
+			"timeupdated" "1743246403"
+		}
+	}
+	"privatebranches" "1"
+}
+"ufs"
+{
+	"quota" "100000000"
+	"maxnumfiles" "100"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocal"
+			"path" "Pixel_Puzzles_Traditional_Jigsaws"
+			"pattern" "*.ini"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+			"recursive" "1"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "28205473"
+"_sha" "3234d0a83206449a3608e04fe016371a5873b584"
+"_size" "17952"

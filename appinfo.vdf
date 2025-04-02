@@ -1,0 +1,845 @@
+"appid" "2183900"
+"common"
+{
+	"name" "Warhammer 40,000: Space Marine 2"
+	"type" "Game"
+	"icon" "0fccfb5eb2acb934db1fe95a4e578f25ccbd71ec"
+	"clienticon" "28e9820314cb73ee94250fe51afed163c2de6de9"
+	"clienttga" "f81923e5b5a1f43d4b10bf5e2892a6024933f2f6"
+	"releasestate" "released"
+	"oslist" "windows"
+	"osarch" "64"
+	"osextended" ""
+	"languages"
+	{
+		"english" "1"
+		"german" "1"
+		"french" "1"
+		"italian" "1"
+		"koreana" "1"
+		"spanish" "1"
+		"schinese" "1"
+		"tchinese" "1"
+		"russian" "1"
+		"thai" "1"
+		"japanese" "1"
+		"polish" "1"
+		"czech" "1"
+		"turkish" "1"
+		"brazilian" "1"
+		"ukrainian" "1"
+		"latam" "1"
+	}
+	"eulas"
+	{
+		"0"
+		{
+			"id" "2183900_eula_0"
+			"name" "Warhammer 40,000: Space Marine 2 EULA"
+			"url" "https://store.steampowered.com//eula/2183900_eula_0"
+			"version" "1"
+		}
+	}
+	"name_localized"
+	{
+		"schinese" "Warhammer 40,000: 星际战士2"
+	}
+	"content_descriptors"
+	{
+		"0" "2"
+		"1" "5"
+	}
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1738713600"
+		"tested_build_id" "17156054"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigNotFullyFunctional"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"2"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_TextInputDoesNotAutomaticallyInvokesKeyboard"
+			}
+			"3"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"4"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+			"5"
+			{
+				"display" "1"
+				"token" "#SteamDeckVerified_TestResult_ExternalControllersNotSupportedPrimaryPlayer"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "1"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "1"
+			"non_deck_display_glyphs" "1"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-experimental"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
+		}
+	}
+	"metacritic_name" "Warhammer 40,000: Space Marine II"
+	"controllertagwizard" "1"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+		"schinese" "capsule_231x87_schinese.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+		"schinese" "header_schinese.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en,zh-cn"
+		"library_hero" "en"
+		"library_logo" "en,zh-cn"
+		"library_header" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "99.76662777129522"
+			"height_pct" "77.96247922108762"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+				"schinese" "library_600x900_schinese.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+				"schinese" "library_600x900_schinese_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "99.76662777129522"
+				"height_pct" "77.96247922108762"
+			}
+			"image"
+			{
+				"english" "logo.png"
+				"schinese" "logo_schinese.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+				"schinese" "logo_schinese_2x.png"
+			}
+		}
+		"library_header"
+		{
+			"image"
+			{
+				"english" "library_header.jpg"
+			}
+		}
+	}
+	"store_asset_mtime" "1742562702"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Saber Interactive"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Focus Entertainment"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "Warhammer"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "25"
+		"2" "3"
+	}
+	"category"
+	{
+		"category_9" "1"
+		"category_38" "1"
+		"category_1" "1"
+		"category_55" "1"
+		"category_57" "1"
+		"category_2" "1"
+		"category_49" "1"
+		"category_36" "1"
+		"category_45" "1"
+		"category_46" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_28" "1"
+		"category_29" "1"
+		"category_58" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+			"subtitles" "true"
+			"full_audio" "true"
+		}
+		"italian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+			"subtitles" "true"
+			"full_audio" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+			"full_audio" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+			"full_audio" "true"
+		}
+		"czech"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"japanese"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"koreana"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"polish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"brazilian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"latam"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"tchinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"turkish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"ukrainian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"thai"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1725898140"
+	"metacritic_score" "82"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/warhammer-40000-space-marine-ii\?ftag=MCD-06-10aaa1f"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "2183900"
+	"store_tags"
+	{
+		"0" "12286"
+		"1" "19"
+		"2" "3814"
+		"3" "3859"
+		"4" "1685"
+		"5" "6730"
+		"6" "21"
+		"7" "4106"
+		"8" "1697"
+		"9" "3942"
+		"10" "4684"
+		"11" "4191"
+		"12" "1678"
+		"13" "1684"
+		"14" "1755"
+		"15" "5094"
+		"16" "4182"
+		"17" "4175"
+		"18" "4145"
+		"19" "4295"
+	}
+	"review_score" "8"
+	"review_percentage" "82"
+}
+"extended"
+{
+	"developer" "Saber Interactive"
+	"publisher" "Focus Entertainment"
+	"homepage" "https://community.focus-entmt.com/focus-entertainment/space-marine-2\?utm_source=Steam&amp;utm_medium=StorePage_SM2&amp;utm_campaign=Organic"
+	"listofdlc" "2486150,2792140,2792150,2792170,2792280,3202690,3212040,3274400,3274410"
+	"dlcavailableonstore" "1"
+}
+"config"
+{
+	"installdir" "Space Marine 2"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Warhammer 40000 Space Marine 2.exe"
+			"arguments" "--cwd client_pc\\root\\bin\\pc"
+			"workingdir" "client_pc\\root\\bin\\pc"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+			"description_loc"
+			{
+				"english" "Warhammer 40000 Space Marine 2"
+			}
+			"description" "Warhammer 40000 Space Marine 2"
+		}
+		"2"
+		{
+			"executable" "launcher_pc_profile.bat"
+			"type" "option2"
+			"config"
+			{
+				"oslist" "windows"
+				"betakey" "focus_marketing_recording, focus_playtest, ms_builds, fe_hw_nvidia_temp, test_pvp, fe_pgw"
+			}
+			"description_loc"
+			{
+				"english" "Profile Launcher"
+			}
+			"description" "Profile Launcher"
+		}
+		"3"
+		{
+			"executable" "client_pc\\root\\bin\\pc\\MagnusClientRetail.exe"
+			"workingdir" "client_pc\\root\\bin\\pc"
+			"config"
+			{
+				"oslist" "windows"
+				"betakey" "focus_playtest"
+			}
+			"description_loc"
+			{
+				"english" "Retail"
+			}
+			"description" "Retail"
+		}
+		"4"
+		{
+			"executable" "client_pc\\root\\bin\\pc\\MagnusClientRelease.exe"
+			"workingdir" "client_pc\\root\\bin\\pc"
+			"type" "option2"
+			"config"
+			{
+				"oslist" "windows"
+				"betakey" "focus_marketing_recording, fe_hw_nvidia_temp"
+			}
+			"description_loc"
+			{
+				"english" "Release"
+			}
+			"description" "Release"
+		}
+		"5"
+		{
+			"executable" "client_pc\\root\\bin\\pc\\MagnusClientRetail.exe"
+			"workingdir" "client_pc\\root\\bin\\pc"
+			"type" "option3"
+			"config"
+			{
+				"oslist" "windows"
+				"betakey" "focus_marketing_recording, fe_hw_nvidia_temp"
+			}
+			"description_loc"
+			{
+				"english" "Retail"
+			}
+			"description" "Retail"
+		}
+		"6"
+		{
+			"executable" "launcher_pc_release.bat"
+			"config"
+			{
+				"oslist" "windows"
+				"betakey" "focus_marketing_recording, focus_playtest, ms_builds, fe_hw_nvidia_temp, test_pvp, fe_pgw"
+			}
+			"description_loc"
+			{
+				"english" "Release Launcher"
+			}
+			"description" "Release Launcher"
+		}
+		"7"
+		{
+			"executable" "launcher_pc_retail.bat"
+			"config"
+			{
+				"oslist" "windows"
+				"betakey" "focus_marketing_recording, focus_playtest, ms_builds, fe_hw_nvidia_temp, test_pvp, fe_pgw"
+			}
+			"description_loc"
+			{
+				"english" "Retail Launcher"
+			}
+			"description" "Retail Launcher"
+		}
+		"8"
+		{
+			"executable" "client_pc\\root\\bin\\pc\\Warhammer 40,000 Space Marine 2.exe"
+			"workingdir" "client_pc\\root\\bin\\pc"
+			"config"
+			{
+				"oslist" "windows"
+				"betakey" "test_backend, test_pros_true_retail, test_backend"
+			}
+			"description_loc"
+			{
+				"english" "Warhammer 40.000: Space Marine 2 "
+			}
+			"description" "Warhammer 40.000: Space Marine 2 "
+		}
+		"9"
+		{
+			"executable" "client_pc\\root\\bin\\pc\\MagnusClientSteamRelease.exe"
+			"workingdir" "client_pc\\root\\bin\\pc"
+			"type" "option2"
+			"config"
+			{
+				"oslist" "windows"
+				"betakey" "focus_marketing_recording, steam_features, fe_hw_nvidia_temp"
+			}
+			"description_loc"
+			{
+				"english" "SteamRelease"
+			}
+			"description" "SteamRelease"
+		}
+		"11"
+		{
+			"executable" "client_pc\\root\\bin\\pc\\MagnusClientSteamRetail.exe"
+			"workingdir" "client_pc\\root\\bin\\pc\\"
+			"config"
+			{
+				"oslist" "windows"
+				"betakey" "focus_marketing_recording, steam_features, fe_hw_nvidia_temp"
+			}
+			"description_loc"
+			{
+				"english" "SteamRetail"
+			}
+			"description" "SteamRetail"
+		}
+		"12"
+		{
+			"executable" "client_pc\\root\\bin\\pc\\MagnusClientEosBootstrapper.exe"
+			"workingdir" "client_pc\\root\\bin\\pc\\"
+			"config"
+			{
+				"oslist" "windows"
+				"betakey" "test_pros_true_retail"
+			}
+			"description_loc"
+			{
+				"english" "SteamEosBootstrapper"
+			}
+			"description" "SteamEosBootstrapper"
+		}
+		"13"
+		{
+			"executable" "client_pc\\root\\bin\\pc\\MagnusEosBootstrapperRelease.exe"
+			"arguments" "--set \"/Config/Permissions/enablePermissionAntiCheat\" permit"
+			"workingdir" "client_pc\\root\\bin\\pc\\"
+			"config"
+			{
+				"oslist" "windows"
+				"betakey" "focus_test_dev, steam_features, test_backend, test_pros_true_retail, saber_external_preview, fe_crossplay, steam_dev_livefocus_test_dev, steam_features, test_backend, test_pros_true_retail, saber_external_preview, fe_crossplay, steam_dev_live, test_steam_dev, test_prod_dev, patch_steam_dev, test_bender"
+			}
+			"description_loc"
+			{
+				"english" "Space Marine 2 Release EOS noEAC"
+			}
+			"description" "Space Marine 2 Release EOS noEAC"
+		}
+		"14"
+		{
+			"executable" "client_pc\\root\\bin\\pc\\MagnusEosBootstrapperRetail.exe"
+			"workingdir" "client_pc\\root\\bin\\pc\\"
+			"config"
+			{
+				"oslist" "windows"
+				"betakey" "focus_test_dev, steam_features, natour,  test_backend,test_pros_true_retail, saber_external_preview, fe_crossplay, steam_dev_live, test_steam_dev, test_prod_dev, patch_steam_dev"
+			}
+			"description_loc"
+			{
+				"english" "Space Marine 2 Retail EOS noEAC"
+			}
+			"description" "Space Marine 2 Retail EOS noEAC"
+		}
+		"15"
+		{
+			"executable" "client_pc\\root\\bin\\pc\\MagnusEosBootstrapperProfile.exe"
+			"arguments" "--set \"/Config/Permissions/enablePermissionAntiCheat\" permit"
+			"workingdir" "client_pc\\root\\bin\\pc\\"
+			"config"
+			{
+				"oslist" "windows"
+				"betakey" "focus_test_dev, steam_features, test_backend, test_pros_true_retail, saber_external_preview, fe_crossplay, steam_dev_live, test_steam_dev,  test_prod_dev, patch_steam_dev"
+			}
+			"description_loc"
+			{
+				"english" "Space Marine 2 Profile EOS noEAC"
+			}
+			"description" "Space Marine 2 Profile EOS noEAC"
+		}
+		"17"
+		{
+			"executable" "client_pc\\root\\bin\\pc\\Warhammer 40000 Space Marine 2 - Retail.exe"
+			"workingdir" "client_pc\\root\\bin\\pc"
+			"config"
+			{
+				"betakey" "test_backend"
+			}
+			"description_loc"
+			{
+				"english" "Warhammer 40000 Retail"
+			}
+			"description" "Warhammer 40000 Retail"
+		}
+		"18"
+		{
+			"executable" "client_pc\\root\\bin\\pc\\MagnusClientSteamRelease.exe"
+			"arguments" "--startup --set /Config/Debug/ConsoleServerIp 10.12.45.5"
+			"workingdir" "client_pc\\root\\bin\\pc"
+			"config"
+			{
+				"betakey" "anti-cheat_test"
+			}
+			"description_loc"
+			{
+				"english" "Warhammer debug build"
+			}
+			"description" "Warhammer debug build"
+		}
+		"19"
+		{
+			"executable" "Warhammer 40000 Space Marine 2.exe"
+			"arguments" "--cwd client_pc\\root\\bin\\pc"
+			"workingdir" "client_pc\\root\\bin\\pc"
+			"config"
+			{
+				"betakey" "anti-cheat_test, steam_features, test_bender, test_pros_true_retail, test_backend, patch_3x_steamfeats, test_retail"
+			}
+			"description_loc"
+			{
+				"english" "Warhammer 40000 Space Marine 2 EAC"
+			}
+			"description" "Warhammer 40000 Space Marine 2 EAC"
+		}
+		"20"
+		{
+			"executable" "MagnusEOSBootstrapperRelease.exe"
+			"arguments" "--cwd client_pc\\root\\bin\\pc -anticheat_settings=SettingsRelease.json"
+			"workingdir" "client_pc\\root\\bin\\pc"
+			"config"
+			{
+				"betakey" "anti-cheat_test, test_prod_steamfeats, test_backend, steam_features, steam_dev_live"
+			}
+			"description_loc"
+			{
+				"english" "AntiCheat Release MagnusEOS "
+			}
+			"description" "AntiCheat Release MagnusEOS "
+		}
+		"21"
+		{
+			"executable" "client_pc\\root\\bin\\pc\\Warhammer 40000 Space Marine 2.exe"
+			"workingdir" "client_pc\\root\\bin\\pc"
+			"config"
+			{
+				"betakey" "anti-cheat_test"
+			}
+			"description_loc"
+			{
+				"english" "Warhammer 40000: Space Marine 2 "
+			}
+			"description" "Warhammer 40000: Space Marine 2 "
+		}
+		"26"
+		{
+			"executable" "start_protected_game.exe"
+			"arguments" "--cwd client_pc\\root\\bin\\pc --startup --set /Config/steam/epicCrossplayEnable false"
+			"workingdir" "client_pc\\root\\bin\\pc"
+			"type" "option2"
+			"config"
+			{
+				"oslist" "windows"
+				"betakey" "test_pros_true_retail, anti-cheat_test, test_backend"
+			}
+			"description_loc"
+			{
+				"english" "Warhammer 40000 Space Marine 2 EAC Only"
+			}
+			"description" "Warhammer 40000 Space Marine 2 EAC Only"
+		}
+		"28"
+		{
+			"executable" "MagnusEOSBootstrapperProfile.exe"
+			"arguments" "--cwd client_pc\\root\\bin\\pc -anticheat_settings=SettingsProfile.json"
+			"workingdir" "client_pc\\root\\bin\\pc\\"
+			"config"
+			{
+				"betakey" "patch_steamfeats, test_prod_steamfeats, steam_features, patch_steam_dev, test_steamdeck, steam_dev_live, test_backend, test_bender, test_steam_dev, focus_playtest"
+			}
+			"description_loc"
+			{
+				"english" "Space Marine 2 EAC Profile"
+			}
+			"description" "Space Marine 2 EAC Profile"
+		}
+		"29"
+		{
+			"executable" "MagnusEOSBootstrapperRelease.exe"
+			"arguments" "--cwd client_pc\\root\\bin\\pc -anticheat_settings=SettingsRelease.json"
+			"workingdir" "client_pc\\root\\bin\\pc\\"
+			"config"
+			{
+				"betakey" "patch_steamfeats, test_prod_steamfeats, test_steam_dev, patch_steam_dev, test_steamdeck, test_backend, test_bender, test_steam_dev, focus_playtest"
+			}
+			"description_loc"
+			{
+				"english" "Space Marine 2 EAC Release"
+			}
+			"description" "Space Marine 2 EAC Release"
+		}
+		"32"
+		{
+			"executable" "client_pc\\root\\bin\\pc\\EpicOnlineServices\\start_epic_crossplay_game.exe"
+			"arguments" "--cwd client_pc\\root\\bin\\pc"
+			"config"
+			{
+				"oslist" "windows"
+				"betakey" "anti-cheat_test, test_retail, test_backend"
+			}
+			"description_loc"
+			{
+				"english" "Warhammer 40000 Space Marine 2 Epic Crossplay"
+			}
+			"description" "Warhammer 40000 Space Marine 2 Epic Crossplay"
+		}
+		"33"
+		{
+			"executable" "MagnusEOSBootstrapperRetail.exe"
+			"arguments" "--cwd client_pc\\root\\bin\\pc -anticheat_settings=SettingsRetail.json"
+			"workingdir" "client_pc\\root\\bin\\pc"
+			"config"
+			{
+				"betakey" "test_prod_steamfeats, test_backend, patch_steamfeats, steam_features, patch_steam_dev, test_steamdeck, test_bender, focus_playtest"
+			}
+			"description_loc"
+			{
+				"english" "AntiCheat Retail MagnusEOS"
+			}
+			"description" "AntiCheat Retail MagnusEOS"
+		}
+		"34"
+		{
+			"executable" "Artbook\\open.bat"
+			"type" "option1"
+			"config"
+			{
+				"ownsdlc" "3212040"
+			}
+			"description_loc"
+			{
+				"english" "Artbook"
+			}
+			"description" "Artbook"
+		}
+		"35"
+		{
+			"executable" "MagnusEOSBootstrapperRelease.exe"
+			"arguments" "-anticheat_settings=SettingsRelease.json"
+			"workingdir" "client_pc\\root\\bin\\pc"
+			"config"
+			{
+				"betakey" "test_steamdeck"
+			}
+			"description_loc"
+			{
+				"english" "Space Marine 2 EAC Release TEST"
+			}
+			"description" "Space Marine 2 EAC Release TEST"
+		}
+	}
+	"steamdecktouchscreen" "5"
+	"steamcontrollertemplateindex" "2"
+}
+"depots"
+{
+	"baselanguages" "english,german,french,italian,koreana,spanish,schinese,tchinese,russian,thai,japanese,portuguese,polish,czech,turkish,brazilian,ukrainian,latam"
+	"228989"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"2183901"
+	{
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8176256360667315907"
+				"size" "75532538961"
+				"download" "60433125632"
+			}
+		}
+	}
+	"3202690"
+	{
+		"dlcappid" "3202690"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2777231195927801489"
+				"size" "101484822882"
+				"download" "102010246736"
+			}
+		}
+	}
+	"3212040"
+	{
+		"dlcappid" "3212040"
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "7457655780363166458"
+				"size" "192137587"
+				"download" "112129136"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "17586882"
+			"timeupdated" "1741082134"
+		}
+	}
+	"privatebranches" "1"
+}
+"ufs"
+{
+	"quota" "524288000"
+	"maxnumfiles" "200"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocal"
+			"path" "Saber/Space Marine 2/storage/steam/user/{64BitSteamID}"
+			"pattern" "*"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+			"recursive" "1"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "28261272"
+"_sha" "13e3140f115f00b77504289c7105c91706818b1f"
+"_size" "19199"

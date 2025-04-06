@@ -3,6 +3,12 @@ name: 生成Steam Lua脚本
 on:
   # 手动触发
   workflow_dispatch:
+    inputs:
+      force_overwrite:
+        description: '是否强制覆盖已存在的Lua文件'
+        required: false
+        default: true
+        type: boolean
   # 也可以在推送到main分支时触发
   push:
     branches:
@@ -35,34 +41,44 @@ jobs:
       - name: 处理每个分支
         run: |
           # 设置Git用户信息
-          git config --global user.name AutoUpdate[bot]
-          git config --global user.email AutoUpdate[bot]@users.noreply.github.com
+          git config --global user.name "GitHub Action Bot"
+          git config --global user.email "action@github.com"
+          
+          # 获取是否覆盖已有文件的参数
+          FORCE_OVERWRITE="${{ github.event.inputs.force_overwrite }}"
+          echo "强制覆盖模式: $FORCE_OVERWRITE"
           
           # 遍历每个分支
           for branch in $BRANCHES; do
             echo "处理分支: $branch"
             
+            # 在切换分支前，重置所有本地更改以避免冲突
+            git reset --hard HEAD
+            git clean -fd  # 删除未跟踪的文件和目录
+            
             # 检出该分支
-            git checkout $branch
+            git checkout $branch || {
+              echo "无法切换到分支 $branch，跳过处理"
+              continue
+            }
             
             # 确认分支名是数字 (appid)
             if [[ $branch =~ ^[0-9]+$ ]]; then
               echo "有效的AppID分支: $branch"
               
               # 检查是否已经存在Lua文件
-              # LUA_FILE="${branch}.lua"
-              # if [ -f "$LUA_FILE" ]; then
-              #   echo "分支 $branch 已存在Lua文件，跳过处理"
-              #   continue
-              # fi
-              
-              # 如果分支上没有生成脚本，从main分支复制
-              if [ ! -f "generate_steam_lua.py" ]; then
-                git checkout main -- generate_steam_lua.py
+              LUA_FILE="${branch}.lua"
+              if [ -f "$LUA_FILE" ] && [ "$FORCE_OVERWRITE" != "true" ]; then
+                echo "分支 $branch 已存在Lua文件，跳过处理 (使用 --force_overwrite=true 可强制覆盖)"
+                continue
+              elif [ -f "$LUA_FILE" ]; then
+                echo "分支 $branch 已存在Lua文件，将被覆盖"
               fi
               
-              # 确保工作区干净
-              git checkout $branch
+              # 总是从main分支获取最新脚本
+              echo "从main分支获取最新的生成脚本..."
+              # 获取脚本内容并保存到本地文件
+              git show main:generate_steam_lua.py > generate_steam_lua.py
               
               # 检查是否存在必要的文件
               if [ -f "config.json" ] && [ -f "Key.vdf" ]; then
@@ -72,7 +88,7 @@ jobs:
                 # 添加并提交更改
                 if [ -f "$LUA_FILE" ]; then
                   git add "$LUA_FILE"
-                  git commit -m "自动生成 ${branch}.lua 文件" || echo "没有变更需要提交"
+                  git commit -m "自动生成/更新 ${branch}.lua 文件" || echo "没有变更需要提交"
                   git push origin $branch
                   echo "成功生成并提交 ${LUA_FILE}"
                 else
@@ -80,6 +96,12 @@ jobs:
                 fi
               else
                 echo "警告: 分支 $branch 缺少必要文件 (config.json 或 Key.vdf)"
+              fi
+              
+              # 执行完毕后删除脚本文件
+              if [ -f "generate_steam_lua.py" ]; then
+                echo "删除临时使用的生成脚本..."
+                rm generate_steam_lua.py
               fi
             else
               echo "跳过非数字分支: $branch"

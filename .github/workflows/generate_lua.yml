@@ -35,8 +35,8 @@ jobs:
       - name: 处理每个分支
         run: |
           # 设置Git用户信息
-          git config --global user.name AutoUpdate[bot]
-          git config --global user.email AutoUpdate[bot]@users.noreply.github.com
+          git config --global user.name "GitHub Action Bot"
+          git config --global user.email "action@github.com"
           
           # 遍历每个分支
           for branch in $BRANCHES; do
@@ -48,6 +48,13 @@ jobs:
             # 确认分支名是数字 (appid)
             if [[ $branch =~ ^[0-9]+$ ]]; then
               echo "有效的AppID分支: $branch"
+              
+              # 检查是否已经存在Lua文件
+              LUA_FILE="${branch}.lua"
+              if [ -f "$LUA_FILE" ]; then
+                echo "分支 $branch 已存在Lua文件，跳过处理"
+                continue
+              fi
               
               # 如果分支上没有生成脚本，从main分支复制
               if [ ! -f "generate_steam_lua.py" ]; then
@@ -63,7 +70,6 @@ jobs:
                 python generate_steam_lua.py
                 
                 # 添加并提交更改
-                LUA_FILE="${branch}.lua"
                 if [ -f "$LUA_FILE" ]; then
                   git add "$LUA_FILE"
                   git commit -m "自动生成 ${branch}.lua 文件" || echo "没有变更需要提交"

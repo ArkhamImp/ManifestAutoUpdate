@@ -71,7 +71,7 @@ def generate_lua_script(config_path, key_vdf_path, output_dir):
             
             if depot_id_str in manifest_info:
                 manifest_id = manifest_info[depot_id_str]
-                f.write(f"setmanifestid({depot_id_str}, {manifest_id})\n\n")
+                f.write(f"setManifestid({depot_id_str}, {manifest_id})\n\n")
             else:
                 f.write("\n")
         

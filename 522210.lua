@@ -1,0 +1,13 @@
+addappid(522210)
+
+addappid(522214, 0, "14a00acfd66f1972d9e61ec946c2cb0f9f08bfaed149a0e16199432fc1cf1f1f") -- 设置manifest ID
+setManifestid(522214, 4849470383598360958)
+
+addappid(522215, 0, "a391037c609c8e73f7a40dfc665269d1b5b687802ae2faa512420b3b378560d3") -- 设置manifest ID
+setManifestid(522215, 6941768972285692373)
+
+addappid(522216, 0, "dd663dfbf6f81fd85aa6be89b6b96fbc5e740dcbd33493799887e50abf14f741") -- 设置manifest ID
+setManifestid(522216, 7078725236611542977)
+
+addappid(3559590)
+

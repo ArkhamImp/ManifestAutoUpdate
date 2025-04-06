@@ -1,0 +1,9 @@
+addappid(3168260)
+
+addappid(3168261, 0, "749bf7e07a235e19744c49d9e52c28077f3b903fa05cd3ca4f42f5dd1f949448") -- 设置manifest ID
+setManifestid(3168261, 6435632630710675207)
+
+addappid(3282660)
+
+addappid(3557410)
+

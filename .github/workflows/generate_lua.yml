@@ -1,0 +1,81 @@
+name: 生成Steam Lua脚本
+
+on:
+  # 手动触发
+  workflow_dispatch:
+  # 也可以在推送到main分支时触发
+  push:
+    branches:
+      - main
+    paths:
+      - 'generate_steam_lua.py'  # 当脚本更新时触发
+
+jobs:
+  generate-lua-for-all-branches:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0  # 获取所有分支信息
+      
+      - name: 设置Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+      
+      - name: 获取所有分支
+        id: get-branches
+        run: |
+          # 获取除main和data之外的所有分支
+          BRANCHES=$(git branch -r | grep -v "main\|data" | sed 's/origin\///' | tr '\n' ' ')
+          echo "BRANCHES=$BRANCHES" >> $GITHUB_ENV
+          echo "分支列表: $BRANCHES"
+      
+      - name: 处理每个分支
+        run: |
+          # 设置Git用户信息
+          git config --global user.name "GitHub Action Bot"
+          git config --global user.email "action@github.com"
+          
+          # 遍历每个分支
+          for branch in $BRANCHES; do
+            echo "处理分支: $branch"
+            
+            # 检出该分支
+            git checkout $branch
+            
+            # 确认分支名是数字 (appid)
+            if [[ $branch =~ ^[0-9]+$ ]]; then
+              echo "有效的AppID分支: $branch"
+              
+              # 如果分支上没有生成脚本，从main分支复制
+              if [ ! -f "generate_steam_lua.py" ]; then
+                git checkout main -- generate_steam_lua.py
+              fi
+              
+              # 确保工作区干净
+              git checkout $branch
+              
+              # 检查是否存在必要的文件
+              if [ -f "config.json" ] && [ -f "Key.vdf" ]; then
+                # 生成Lua脚本
+                python generate_steam_lua.py
+                
+                # 添加并提交更改
+                LUA_FILE="${branch}.lua"
+                if [ -f "$LUA_FILE" ]; then
+                  git add "$LUA_FILE"
+                  git commit -m "自动生成 ${branch}.lua 文件" || echo "没有变更需要提交"
+                  git push origin $branch
+                  echo "成功生成并提交 ${LUA_FILE}"
+                else
+                  echo "错误: 未能生成 ${LUA_FILE}"
+                fi
+              else
+                echo "警告: 分支 $branch 缺少必要文件 (config.json 或 Key.vdf)"
+              fi
+            else
+              echo "跳过非数字分支: $branch"
+            fi
+          done 

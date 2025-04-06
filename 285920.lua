@@ -1,0 +1,44 @@
+addappid(285920)
+
+addappid(285926, 0, "fa448e680cf9d9c35e2675bc1136697abeb74630c01eb0db95cfbcf4f6a25576") -- 设置manifest ID
+setManifestid(285926, 1064623632418576299)
+
+addappid(331931, 0, "d779e4527e09739ef4702dfa1fae50eab0e0dd66b604cbee0916bd65988b1794") -- 设置manifest ID
+setManifestid(331931, 2400785291162766445)
+
+addappid(285935, 0, "82f25ce69857e119effbc0fd085736ffb07e97458c0162362082ebdb5879bfa7") -- 设置manifest ID
+setManifestid(285935, 579647158099204128)
+
+addappid(285928, 0, "63fb4e6bb00dcc52a18b3a93457664ba36ff101114f75e1b184b6664170739b1") -- 设置manifest ID
+setManifestid(285928, 7848802023609883411)
+
+addappid(285937, 0, "98097162e7f725e367f78edf8faa1e619da3e270c41c321b3ce5da1973582b3c") -- 设置manifest ID
+setManifestid(285937, 731761642183003315)
+
+addappid(331932, 0, "8341825dda4d6abd1b2289399bea5c673037414ee64b0823b8f8a8926d31cb1b") -- 设置manifest ID
+setManifestid(331932, 3892862278193919978)
+
+addappid(331930)
+
+addappid(1054780)
+
+addappid(1055440)
+
+addappid(1055550)
+
+addappid(1080910)
+
+addappid(1080911)
+
+addappid(1090730)
+
+addappid(1199630)
+
+addappid(1289390)
+
+addappid(1475870)
+
+addappid(1475880)
+
+addappid(1751530)
+

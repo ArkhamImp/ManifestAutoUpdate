@@ -1,0 +1,239 @@
+"appid" "924670"
+"common"
+{
+	"name" "Need for Spirit: Drink & Drive Simulator"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows"
+	"osarch" ""
+	"clienttga" "b4c545a50df0cb47b4b6b31165e6d97c65165030"
+	"clienticon" "6c99f36bfb0135beb06da658d5bdeb2d022a3b45"
+	"icon" "ab9393b20d9d021e4b05f53ef8b83207e4b0d2b5"
+	"logo" "92124ff1df593c4dab9ac7ed14331dc87c341e64"
+	"logo_small" "92124ff1df593c4dab9ac7ed14331dc87c341e64_thumb"
+	"controller_support" "full"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "CenterCenter"
+			"width_pct" "100"
+			"height_pct" "100"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"logo_position"
+			{
+				"pinned_position" "CenterCenter"
+				"width_pct" "100"
+				"height_pct" "100"
+			}
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+		}
+	}
+	"store_asset_mtime" "1701784925"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Atomic Fabrik"
+		}
+		"1"
+		{
+			"type" "developer"
+			"name" "Cristian Manolachi"
+		}
+		"2"
+		{
+			"type" "developer"
+			"name" "Gamesforfarm"
+		}
+		"3"
+		{
+			"type" "publisher"
+			"name" "Atomic Fabrik"
+		}
+		"4"
+		{
+			"type" "publisher"
+			"name" "Cristian Manolachi"
+		}
+		"5"
+		{
+			"type" "publisher"
+			"name" "Gamesforfarm"
+		}
+	}
+	"primary_genre" "9"
+	"genres"
+	{
+		"0" "25"
+		"1" "4"
+		"2" "23"
+		"3" "9"
+		"4" "28"
+		"5" "18"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_28" "1"
+		"category_43" "1"
+		"category_44" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"latam"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"tchinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"original_release_date" "1543996800"
+	"steam_release_date" "1536171080"
+	"community_hub_visible" "1"
+	"gameid" "924670"
+	"store_tags"
+	{
+		"0" "1100687"
+		"1" "597"
+		"2" "599"
+		"3" "3834"
+		"4" "1644"
+		"5" "4136"
+		"6" "3839"
+		"7" "699"
+		"8" "1654"
+		"9" "1697"
+		"10" "1719"
+		"11" "4166"
+		"12" "4175"
+		"13" "4182"
+		"14" "4726"
+		"15" "21"
+		"16" "1756"
+		"17" "4026"
+		"18" "4342"
+		"19" "492"
+	}
+	"review_score" "5"
+	"review_percentage" "59"
+}
+"extended"
+{
+	"developer" "Atomic Fabrik"
+	"publisher" "Atomic Fabrik"
+	"homepage" "https://www.atomicfabrik.com/"
+}
+"config"
+{
+	"installdir" "Need for Spirit Drink & Drive Simulator"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Need for Spirit Drink & Drive Simulator.exe"
+			"type" "default"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+	}
+}
+"depots"
+{
+	"924671"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "8805196462965894710"
+				"size" "1978713500"
+				"download" "703423168"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "3103769"
+			"timeupdated" "1536405890"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "27924129"
+"_sha" "766a7debbce5e9f9e5c23fa1f45dcf18e41314e3"
+"_size" "3754"

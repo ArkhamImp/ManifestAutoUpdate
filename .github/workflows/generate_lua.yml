@@ -35,8 +35,8 @@ jobs:
       - name: 处理每个分支
         run: |
           # 设置Git用户信息
-          git config --global user.name "GitHub Action Bot"
-          git config --global user.email "action@github.com"
+          git config --global user.name AutoUpdate[bot]
+          git config --global user.email AutoUpdate[bot]@users.noreply.github.com
           
           # 遍历每个分支
           for branch in $BRANCHES; do

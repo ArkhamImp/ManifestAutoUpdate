@@ -11,7 +11,7 @@ jobs:
 
       - name: Remove file from all branches
         run: |
-          file="generate_steam_lua.txt"  # 替换为你的文件
+          file="generate_steam_lua.py"  # 替换为你的文件
           protected_branches="main|data"
 
           # 获取所有远程分支（排除受保护分支）

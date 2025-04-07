@@ -11,6 +11,9 @@ jobs:
 
       - name: Remove file from all branches
         run: |
+          # 设置Git用户信息
+          git config --global user.name "GitHub Action Bot"
+          git config --global user.email "action@github.com"
           file="generate_steam_lua.py"  # 替换为你的文件
           protected_branches="main|data"
 

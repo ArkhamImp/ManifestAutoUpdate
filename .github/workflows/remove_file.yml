@@ -27,4 +27,5 @@ jobs:
               git rm "$file"
               git commit -m "Remove $file"
               git push origin "$branch"
+            fi
           done

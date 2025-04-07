@@ -7,7 +7,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 0  # 获取所有分支历史
+          fetch-depth: 1
 
       - name: Remove file from all branches
         run: |

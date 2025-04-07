@@ -21,9 +21,10 @@ jobs:
           branches=$(git branch -r | grep -v "HEAD" | sed 's/origin\///' | grep -v -E "$protected_branches")
 
           for branch in $branches; do
-            echo "删除文件 @ $branch"
             git checkout "$branch"
-            git rm "$file"
-            git commit -m "Remove $file"
-            git push origin "$branch"
+            if [ -f "$file_to_delete" ]; then
+              echo "删除文件 @ $branch"
+              git rm "$file"
+              git commit -m "Remove $file"
+              git push origin "$branch"
           done

@@ -7,7 +7,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          fetch-depth: 1
+          fetch-depth: 0  # 获取完整历史
           submodules: recursive
 
       - name: Remove file from all branches
@@ -18,15 +18,23 @@ jobs:
           file="generate_steam_lua.py"  # 替换为你的文件
           protected_branches="main|data"
 
+          # 获取所有远程分支
+          git fetch --all
+          
           # 获取所有远程分支（排除受保护分支）
           branches=$(git branch -r | grep -v "HEAD" | sed 's/origin\///' | grep -v -E "$protected_branches")
 
           for branch in $branches; do
-            git checkout "$branch"
-            if [ -f "$file_to_delete" ]; then
+            echo "检查分支: $branch"
+            # 创建本地分支跟踪远程分支
+            git checkout -B "$branch" "origin/$branch"
+            
+            if [ -f "$file" ]; then
               echo "删除文件 @ $branch"
               git rm "$file"
               git commit -m "Remove $file"
               git push origin "$branch"
+            else
+              echo "文件不存在于 $branch 分支"
             fi
           done

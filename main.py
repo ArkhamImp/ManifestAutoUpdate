@@ -20,6 +20,7 @@ from multiprocessing.pool import ThreadPool
 from multiprocessing.dummy import Pool, Lock
 from steam.guard import generate_twofactor_code
 from DepotManifestGen.main import MySteamClient, MyCDNClient, get_manifest, BillingType, Result
+import re
 
 lock = Lock()
 #改大100倍修复添加多账号导致堆栈溢出
@@ -225,6 +226,10 @@ class ManifestAutoUpdate:
                     app_repo.git.add('appinfo.vdf')
                     app_repo.index.commit(f'Update depot: {depot_id}_{manifest_gid}')
                     app_repo.create_tag(f'{depot_id}_{manifest_gid}')
+            
+            # 生成Lua脚本
+            self.generate_lua_script(app_id)
+            
         except KeyboardInterrupt:
             raise
         except:
@@ -254,6 +259,97 @@ class ManifestAutoUpdate:
     def save_depot_info(self):
         with lock:
             self.app_info.dump()
+
+    def generate_lua_script(self, app_id):
+        """生成Steam下载用的Lua脚本"""
+        app_path = self.ROOT / f'depots/{app_id}'
+        if not app_path.exists():
+            self.log.error(f"应用目录 {app_path} 不存在")
+            return
+
+        # 读取config.json
+        config_path = app_path / "config.json"
+        if not config_path.exists():
+            self.log.error(f"配置文件 {config_path} 不存在")
+            return
+
+        with open(config_path, 'r') as f:
+            config = json.load(f)
+
+        app_id = config.get('appId')
+        depots = config.get('depots', [])
+        dlcs = config.get('dlcs', [])
+
+        # 生成以appid为文件名的lua文件路径
+        output_path = app_path / f"{app_id}.lua"
+
+        # 获取密钥信息
+        key_vdf_path = app_path / "Key.vdf"
+        if not key_vdf_path.exists():
+            self.log.error(f"密钥文件 {key_vdf_path} 不存在")
+            return
+
+        depot_keys = {}
+        current_depot = None
+        with open(key_vdf_path, 'r') as f:
+            for line in f:
+                line = line.strip()
+                if re.match(r'^"\d+"$', line):
+                    current_depot = line.strip('"')
+                elif current_depot and '"DecryptionKey"' in line:
+                    key = line.split('"')[3]
+                    depot_keys[current_depot] = key
+
+        # 获取manifest信息
+        manifest_info = {}
+        for filename in os.listdir(app_path):
+            if filename.endswith('.manifest'):
+                parts = filename.split('_')
+                if len(parts) == 2:
+                    depot_id = parts[0]
+                    manifest_id = parts[1].split('.')[0]
+                    manifest_info[depot_id] = manifest_id
+
+        # 生成Lua脚本
+        with open(output_path, 'w') as f:
+            # 添加主应用ID
+            f.write(f"addappid({app_id})\n\n")
+            
+            # 添加depot信息
+            for depot_id in depots:
+                depot_id_str = str(depot_id)
+                
+                if depot_id_str in depot_keys:
+                    key = depot_keys[depot_id_str]
+                    f.write(f'addappid({depot_id_str}, 0, "{key}") -- 设置manifest ID\n')
+                else:
+                    f.write(f'addappid({depot_id_str})\n')
+                
+                if depot_id_str in manifest_info:
+                    manifest_id = manifest_info[depot_id_str]
+                    f.write(f"setManifestid({depot_id_str}, {manifest_id})\n\n")
+                else:
+                    f.write("\n")
+            
+            # 添加DLC信息
+            for dlc_id in dlcs:
+                dlc_id_str = str(dlc_id)
+                
+                if dlc_id_str in manifest_info:
+                    manifest_id = manifest_info[dlc_id_str]
+                    
+                    if dlc_id_str in depot_keys:
+                        key = depot_keys[dlc_id_str]
+                        f.write(f'addappid({dlc_id_str}, 0, "{key}")\n')
+                    else:
+                        f.write(f'addappid({dlc_id_str})\n')
+                    
+                    f.write(f"setmanifestid({dlc_id_str}, {manifest_id})\n\n")
+                else:
+                    f.write(f"addappid({dlc_id_str})\n\n")
+                
+        self.log.info(f"Lua脚本已生成到: {output_path}")
+        return app_id
 
     def get_app_worktree(self):
         worktree_dict = {}

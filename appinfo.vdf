@@ -1,0 +1,338 @@
+"appid" "760650"
+"common"
+{
+	"name" "Hammerting"
+	"type" "Game"
+	"releasestate" "released"
+	"oslist" "windows"
+	"osarch" "64"
+	"eulas"
+	{
+		"0"
+		{
+			"id" "760650_eula_0"
+			"name" "TDTD EULA"
+			"url" "https://store.steampowered.com//eula/760650_eula_0"
+		}
+	}
+	"logo" "bc9d898500fc321b2bea632385c5df7bd38a476e"
+	"logo_small" "bc9d898500fc321b2bea632385c5df7bd38a476e_thumb"
+	"icon" "944c3ba491ed0bf5043326cc7693231a3104f6bb"
+	"clienttga" "ae03e62d93c33a457158b1f34762222f1f9d555c"
+	"clienticon" "08d18e5bdfed87446ae78e37051c0341ff4119ff"
+	"linuxclienticon" "6eb41aa5c5c43f9dd9687f46ba76bff86dccadc5"
+	"clienticns" "5ab7533c2e9887fcc0646c8841698353e1448cc8"
+	"name_localized"
+	{
+		"schinese" "百炼成钢"
+	}
+	"content_descriptors"
+	{
+		"0" "5"
+	}
+	"steam_deck_compatibility"
+	{
+		"category" "1"
+		"test_timestamp" "1645228800"
+		"tested_build_id" "7770209"
+		"tests"
+		{
+			"0"
+			{
+				"display" "2"
+				"token" "#SteamDeckVerified_TestResult_SteamOSDoesNotSupport"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "other"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "0"
+			"small_text" "0"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-stable"
+			"requires_h264" "0"
+		}
+	}
+	"metacritic_name" "Hammerting"
+	"small_capsule"
+	{
+		"english" "capsule_231x87.jpg"
+		"schinese" "capsule_231x87_schinese.jpg"
+	}
+	"header_image"
+	{
+		"english" "header.jpg"
+		"schinese" "header_schinese.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "65.40256709451576"
+			"height_pct" "48.10030403947435"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "65.40256709451576"
+				"height_pct" "48.10030403947435"
+			}
+		}
+	}
+	"store_asset_mtime" "1646649019"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "Warpzone Studios"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "Team17 Digital"
+		}
+		"2"
+		{
+			"type" "franchise"
+			"name" "Team17 Digital"
+		}
+	}
+	"primary_genre" "2"
+	"genres"
+	{
+		"0" "25"
+		"1" "23"
+		"2" "3"
+		"3" "28"
+		"4" "2"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_29" "1"
+		"category_45" "1"
+		"category_46" "1"
+		"category_1" "1"
+		"category_9" "1"
+		"category_38" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"italian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"japanese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"polish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"brazilian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1637082000"
+	"metacritic_score" "64"
+	"metacritic_fullurl" "https://www.metacritic.com/game/pc/hammerting\?ftag=MCD-06-10aaa1f"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "760650"
+	"store_tags"
+	{
+		"0" "220585"
+		"1" "7332"
+		"2" "599"
+		"3" "12472"
+		"4" "255534"
+		"5" "5981"
+		"6" "1643"
+		"7" "4695"
+		"8" "1702"
+		"9" "6276"
+		"10" "8945"
+		"11" "9"
+		"12" "1684"
+		"13" "3854"
+		"14" "122"
+		"15" "3834"
+		"16" "5125"
+		"17" "4182"
+		"18" "5348"
+		"19" "4975"
+	}
+	"review_score" "5"
+	"review_percentage" "57"
+}
+"extended"
+{
+	"developer" "Warpzone Studios"
+	"publisher" "Team17 Digital"
+	"homepage" "https://www.team17.com/games/hammerting/"
+}
+"config"
+{
+	"installdir" "Hammerting"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "boot.exe"
+			"type" "none"
+			"config"
+			{
+				"oslist" "windows"
+			}
+		}
+	}
+}
+"depots"
+{
+	"228987"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228988"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"760651"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "16893124704603490"
+				"size" "5843223212"
+				"download" "1206719200"
+			}
+			"experimental"
+			{
+				"gid" "5007210986042414323"
+				"size" "7739482319"
+				"download" "1316381024"
+			}
+		}
+	}
+	"baselanguages" "english,german,french,italian,spanish,schinese,russian,japanese,polish,brazilian"
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "8272469"
+			"timeupdated" "1646661509"
+		}
+		"experimental"
+		{
+			"buildid" "8272652"
+			"description" "Public experimental branch"
+			"timeupdated" "1645770862"
+		}
+	}
+	"privatebranches" "1"
+}
+"_missing_token" "False"
+"_change_number" "27924129"
+"_sha" "c01f1ea6c094796cc03544d408ed1c5568277112"
+"_size" "5819"

@@ -9,6 +9,8 @@ on:
         required: false
         default: true
         type: boolean
+    schedule:
+      - cron: '0 */12 * * *'
   # 也可以在推送到main分支时触发
   push:
     branches:

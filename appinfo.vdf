@@ -1,0 +1,475 @@
+"appid" "2695940"
+"common"
+{
+	"name" "PANICORE"
+	"type" "Game"
+	"icon" "93ee1710ba0dc640e250a08612c88a5a9ec65103"
+	"clienticon" "bf12d1f3a5a1e794ba691081d554bd355776de5f"
+	"clienttga" "fb8065327233ecc601efb9318ccd5539933a113f"
+	"releasestate" "released"
+	"oslist" "windows"
+	"osarch" "64"
+	"osextended" ""
+	"steam_deck_compatibility"
+	{
+		"category" "2"
+		"test_timestamp" "1725580800"
+		"tested_build_id" "14633436"
+		"tests"
+		{
+			"0"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_ControllerGlyphsDoNotMatchDeckDevice"
+			}
+			"1"
+			{
+				"display" "3"
+				"token" "#SteamDeckVerified_TestResult_InterfaceTextIsNotLegible"
+			}
+			"2"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+			}
+			"3"
+			{
+				"display" "4"
+				"token" "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+			}
+		}
+		"configuration"
+		{
+			"supported_input" "gamepad"
+			"requires_manual_keyboard_invoke" "0"
+			"requires_non_controller_launcher_nav" "0"
+			"primary_player_is_controller_slot_0" "0"
+			"non_deck_display_glyphs" "1"
+			"small_text" "1"
+			"requires_internet_for_setup" "0"
+			"requires_internet_for_singleplayer" "0"
+			"recommended_runtime" "proton-9.0-2RC"
+			"requires_h264" "0"
+			"gamescope_frame_limiter_not_supported" "0"
+			"hdr_support" "0"
+		}
+	}
+	"controllertagwizard" "1"
+	"small_capsule"
+	{
+		"english" "d248ec26c94a80cf9397481f8abd4dd4c28395cd/capsule_231x87.jpg"
+	}
+	"header_image"
+	{
+		"english" "ae7913a03788c22d396b39f99cdea71d017a469d/header.jpg"
+	}
+	"library_assets"
+	{
+		"library_capsule" "en"
+		"library_hero" "en"
+		"library_logo" "en"
+		"library_header" "en"
+		"logo_position"
+		{
+			"pinned_position" "BottomLeft"
+			"width_pct" "94.87048746435116"
+			"height_pct" "27.234145360035896"
+		}
+	}
+	"library_assets_full"
+	{
+		"library_capsule"
+		{
+			"image"
+			{
+				"english" "50180dd94e0c4c35bb8cfc8449cbf16cd972be56/library_600x900.jpg"
+			}
+			"image2x"
+			{
+				"english" "50180dd94e0c4c35bb8cfc8449cbf16cd972be56/library_600x900_2x.jpg"
+			}
+		}
+		"library_hero"
+		{
+			"image"
+			{
+				"english" "library_hero.jpg"
+			}
+			"image2x"
+			{
+				"english" "library_hero_2x.jpg"
+			}
+		}
+		"library_logo"
+		{
+			"image"
+			{
+				"english" "logo.png"
+			}
+			"image2x"
+			{
+				"english" "logo_2x.png"
+			}
+			"logo_position"
+			{
+				"pinned_position" "BottomLeft"
+				"width_pct" "94.87048746435116"
+				"height_pct" "27.234145360035896"
+			}
+		}
+		"library_header"
+		{
+			"image"
+			{
+				"english" "2b1e98eefa0e8ee0e7b2a29c8d39dd3e5b86d352/library_header.jpg"
+			}
+			"image2x"
+			{
+				"english" "2b1e98eefa0e8ee0e7b2a29c8d39dd3e5b86d352/library_header_2x.jpg"
+			}
+		}
+	}
+	"store_asset_mtime" "1743197442"
+	"associations"
+	{
+		"0"
+		{
+			"type" "developer"
+			"name" "ZTEK Studio"
+		}
+		"1"
+		{
+			"type" "publisher"
+			"name" "ZTEK Studio"
+		}
+	}
+	"primary_genre" "1"
+	"genres"
+	{
+		"0" "1"
+		"1" "25"
+		"2" "23"
+	}
+	"category"
+	{
+		"category_2" "1"
+		"category_1" "1"
+		"category_9" "1"
+		"category_38" "1"
+		"category_22" "1"
+		"category_23" "1"
+		"category_45" "1"
+		"category_46" "1"
+		"category_62" "1"
+	}
+	"supported_languages"
+	{
+		"english"
+		{
+			"supported" "true"
+			"full_audio" "true"
+			"subtitles" "true"
+		}
+		"french"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"italian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"german"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"spanish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"arabic"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"bulgarian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"schinese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"danish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"finnish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"greek"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"indonesian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"japanese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"koreana"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"dutch"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"norwegian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"polish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"portuguese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"romanian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"russian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"swedish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"thai"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"czech"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"turkish"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"ukrainian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"hungarian"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+		"vietnamese"
+		{
+			"supported" "true"
+			"subtitles" "true"
+		}
+	}
+	"steam_release_date" "1717164023"
+	"community_visible_stats" "1"
+	"community_hub_visible" "1"
+	"gameid" "2695940"
+	"store_tags"
+	{
+		"0" "1667"
+		"1" "3843"
+		"2" "3859"
+		"3" "1721"
+		"4" "3839"
+		"5" "6730"
+		"6" "42804"
+		"7" "1687"
+		"8" "4182"
+		"9" "4106"
+		"10" "1685"
+		"11" "19"
+		"12" "3959"
+		"13" "4166"
+		"14" "597"
+		"15" "5186"
+		"16" "1662"
+		"17" "4342"
+		"18" "21"
+		"19" "492"
+	}
+	"review_score" "8"
+	"review_percentage" "80"
+}
+"extended"
+{
+	"developer" "ZTEK Studio"
+	"publisher" "ZTEK Studio"
+}
+"config"
+{
+	"installdir" "PANICORE"
+	"launch"
+	{
+		"0"
+		{
+			"executable" "Panicore.exe"
+			"arguments" "-d3d12"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+			"description_loc"
+			{
+				"english" "with DirectX 12"
+			}
+			"description" "with DirectX 12"
+		}
+		"1"
+		{
+			"executable" "Panicore.exe"
+			"arguments" "-d3d11"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+			"description_loc"
+			{
+				"english" "with DirectX 11"
+			}
+			"description" "with DirectX 11"
+		}
+		"2"
+		{
+			"executable" "Panicore.exe"
+			"arguments" "-vulkan"
+			"type" "option1"
+			"config"
+			{
+				"oslist" "windows"
+				"osarch" "64"
+			}
+			"description_loc"
+			{
+				"english" "with Vulkan"
+			}
+			"description" "with Vulkan"
+		}
+	}
+}
+"depots"
+{
+	"228989"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"228990"
+	{
+		"config"
+		{
+			"oslist" "windows"
+		}
+		"depotfromapp" "228980"
+		"sharedinstall" "1"
+	}
+	"2695941"
+	{
+		"config"
+		{
+			"oslist" "windows"
+			"osarch" "64"
+		}
+		"manifests"
+		{
+			"public"
+			{
+				"gid" "2350568169524496516"
+				"size" "12222871195"
+				"download" "11895833104"
+			}
+			"beta"
+			{
+				"gid" "3653433166175913255"
+				"size" "12335483352"
+				"download" "11996595008"
+			}
+		}
+	}
+	"branches"
+	{
+		"public"
+		{
+			"buildid" "16197324"
+			"timeupdated" "1730034261"
+		}
+		"beta"
+		{
+			"buildid" "17710649"
+			"description" "Testing new stuff"
+			"timeupdated" "1741877756"
+		}
+	}
+	"privatebranches" "1"
+}
+"ufs"
+{
+	"quota" "200000"
+	"maxnumfiles" "500"
+	"savefiles"
+	{
+		"0"
+		{
+			"root" "WinAppDataLocal"
+			"path" "Panicore/Saved"
+			"pattern" "*.sav"
+			"platforms"
+			{
+				"1" "Windows"
+			}
+			"recursive" "1"
+		}
+	}
+}
+"_missing_token" "False"
+"_change_number" "28216588"
+"_sha" "9b17b07f0010ac665086b520aac196daba2cb453"
+"_size" "7894"

@@ -9,14 +9,8 @@ on:
         required: false
         default: true
         type: boolean
-    schedule:
-      - cron: '0 */12 * * *'
-  # 也可以在推送到main分支时触发
-  push:
-    branches:
-      - main
-    paths:
-      - 'generate_steam_lua.py'  # 当脚本更新时触发
+  schedule:
+    - cron: '0 */12 * * *'
 
 jobs:
   generate-lua-for-all-branches:

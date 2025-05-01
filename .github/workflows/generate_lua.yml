@@ -41,7 +41,7 @@ jobs:
           git config --global user.email "action@github.com"
           
           # 获取是否覆盖已有文件的参数
-          FORCE_OVERWRITE="${{ github.event.inputs.force_overwrite }}"
+          FORCE_OVERWRITE="${{ inputs.force_overwrite }}"
           echo "强制覆盖模式: $FORCE_OVERWRITE"
           
           # 遍历每个分支

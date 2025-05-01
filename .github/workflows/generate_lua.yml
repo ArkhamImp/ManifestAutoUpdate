@@ -7,7 +7,7 @@ on:
       force_overwrite:
         description: '是否强制覆盖已存在的Lua文件'
         required: false
-        default: true
+        default: 'true'
         type: boolean
   schedule:
     - cron: '0 */12 * * *'
@@ -36,7 +36,7 @@ jobs:
       
       - name: 处理每个分支
         env:
-          FORCE_OVERWRITE: ${{ github.event.inputs.force_overwrite }}
+          FORCE_OVERWRITE: ${{ github.event.inputs.force_overwrite != null && github.event.inputs.force_overwrite || 'true' }}
         run: |
           # 设置Git用户信息
           git config --global user.name "GitHub Action Bot"

@@ -10,7 +10,7 @@ on:
         default: 'true'
         type: boolean
   schedule:
-    - cron: '0 */12 * * *'
+    - cron: '0 10,22 * * *'
 
 jobs:
   generate-lua-for-all-branches:

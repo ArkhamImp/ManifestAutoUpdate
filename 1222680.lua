@@ -42,6 +42,9 @@ setManifestid(1222688, 1279642730456692929)
 addappid(1239385, 0, "3a475f80eb2bc6cdede83e8eb1b69fb44d34e3cfdaa9756e688d4d25d540fbfb") -- 设置manifest ID
 setManifestid(1239385, 5278051178232028739)
 
+addappid(3340991, 0, "023daedb070e5af8704dc88ee0af829f5c11923d2e6a42cca11ba5713b9f4491") -- 设置manifest ID
+setManifestid(3340991, 4695958403711974607)
+
 addappid(1251050)
 
 addappid(1281880)

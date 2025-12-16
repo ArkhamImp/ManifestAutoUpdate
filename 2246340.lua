@@ -1,7 +1,7 @@
 addappid(2246340)
 
 addappid(2246341, 0, "15f418b98b8ade3be07b095f07a9ffc62ab918cf659a2fd7465fcb41c462f0af") -- 设置manifest ID
-setManifestid(2246341, 8202314825794960635)
+setManifestid(2246341, 8021981220302818899)
 
 addappid(3116950)
 
@@ -65,6 +65,10 @@ addappid(3117350)
 
 addappid(3117370)
 
+addappid(3117390)
+
+addappid(3117400)
+
 addappid(3117430)
 
 addappid(3117440)
@@ -126,8 +130,4 @@ addappid(3289770)
 addappid(3289780)
 
 addappid(3289790)
-
-addappid(3289800)
-
-addappid(3289810)
 

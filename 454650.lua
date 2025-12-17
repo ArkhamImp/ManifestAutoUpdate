@@ -1,7 +1,7 @@
 addappid(454650)
 
 addappid(454651, 0, "f42c03be492cf6df28782bcf7630521712bb5425d268fcfc599731056ec1a21c") -- 设置manifest ID
-setManifestid(454651, 3390066100633455775)
+setManifestid(454651, 7238901667150908628)
 
 addappid(507510)
 
@@ -68,4 +68,8 @@ addappid(3188680)
 addappid(3387210)
 
 addappid(3581800)
+
+addappid(3839310)
+
+addappid(3905290)
 

@@ -1,10 +1,10 @@
 addappid(1313140)
 
 addappid(1313141, 0, "e7826851aae21726cd847e809a97378d381ba16449186ce1cdb57c572d703460") -- 设置manifest ID
-setManifestid(1313141, 5099221238639206725)
+setManifestid(1313141, 6913922304626050440)
 
 addappid(1313142, 0, "242e4da3afdadce6aa2329f9f1c8c71fe09c06f51a80c105a444734a12c9e3f2") -- 设置manifest ID
-setManifestid(1313142, 2362702533565536515)
+setManifestid(1313142, 3661154288238263886)
 
 addappid(1944680)
 
@@ -53,4 +53,14 @@ addappid(2945140)
 addappid(3017350)
 
 addappid(3840050)
+
+addappid(4153010)
+
+addappid(4153020)
+
+addappid(4153030)
+
+addappid(4153040)
+
+addappid(4153050)
 
